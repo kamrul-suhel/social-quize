@@ -64,9 +64,7 @@
     },
       beforeRouteEnter(to, from, next) {
         next( vm =>{
-              $("#leader_board").mCustomScrollbar({
-                  scrollButtons: {enable:true}
-              });
+            
         })
       },
     methods: {
