@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown</title>
+</head>
+<body>
+<h2>Timer</h2>
+<div id="timer2"></div>
+
+<button id="button">Stop</button>
+
+<h2>Countdown</h2>
+
+
+<div id="timer"></div>
+<script type="text/javascript">
+
+    var startTime = Date.now();
+
+    var interval = setInterval(function() {
+        var elapsedTime = Date.now() - startTime;
+//        document.getElementById("timer2").innerHTML = (elapsedTime / 1000).toFixed(3);
+        document.getElementById("timer2").innerHTML = elapsedTime;
+    }, 50);
+
+    var button = document.getElementById('button');
+    button.addEventListener('click', stoptime);
+
+    function stoptime() {
+        console.log('moo');
+        clearInterval(interval);
+    }
+
+
+
+
+    // We actually only run our method every x millisecs, due to browser constraints
+    var THROTTLE_AMOUNT = 4;
+
+    countdown(30);
+
+    function countdown(secs) {
+        var milli = secs * (1000);
+        var counter = setInterval(function() {
+            if(milli <= 0) {
+                clearInterval(counter);
+                return
+            }
+            milli -= THROTTLE_AMOUNT;
+            document.getElementById("timer").innerHTML = milli + " millisecs"; // watch for spelling
+        }, THROTTLE_AMOUNT);
+    }
+</script>
+</body>
+</html>
