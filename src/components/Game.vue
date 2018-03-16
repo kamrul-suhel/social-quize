@@ -83,7 +83,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     .heading{
         -webkit-animation: fade-in .3s forwards;
     }

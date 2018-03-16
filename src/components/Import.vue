@@ -49,7 +49,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     input.bits {
         border: 0px;
         border-bottom: 2px solid darkslategray;

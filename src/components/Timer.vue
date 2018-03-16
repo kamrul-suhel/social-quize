@@ -57,7 +57,7 @@
     }
 </script>
 
-<style scoped>
+<style>
     .game_timer_score{
 
     }

@@ -4,7 +4,7 @@
             <div class="container top_heading">
                 <div class="row top_heading_content">
                     <div class="col">
-                        <h2>Leader board</h2>
+                        <h2>Leaderboard</h2>
                     </div>
                 </div>
             </div>
@@ -166,7 +166,7 @@
 
 
 </script>
-<style scoped>
+<style>
     #app{
         background:#fff !important;
     }

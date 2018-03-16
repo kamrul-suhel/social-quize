@@ -141,7 +141,7 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
   .start{
     background: url('../assets/images/dots_sm.png') no-repeat bottom right;
   }
