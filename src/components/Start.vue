@@ -1,55 +1,58 @@
 <template>
-  <div class="start d-flex align-items-center">
-  
-    <div class="card w-100 text-center py-4 mx-auto">
-      <section class="container">
-        <div class="row">
-          <div class="col-12 col-xs-12 col-sm-8 col-md-12 col-lg-7 table-style">
-            <div class="table-cell-style">
-              <div class="heading_leaderboard_page">
-                <h2 class="heading_main">How well do you<br/>understand the<br/>social generation?</h2>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-1"></div>
-          <div class="col-12 col-xs-12 col-sm-4 col-md-12 col-lg-4">
-            <div class="leader_board text-left" id="leader_board">
-              <div id="children">
-                <h2 class="text-left sub_heading">Leaderboard</h2>
-                  <table class="table">
-                      <tbody>
-                        <tr v-for="(score, index) in scores" v-if="index < 10">
-                          <td><strong style="font-family:'giorgiosans-bolditalic'">{{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}</strong></td>
-                          <td style="font-family:'gotham-book'; font-weight:normal;font-style:normal;">{{score.initial_name || score.user.full_name}}</td>
-                          <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.time.minutes}}:{{score.time.seconds}}</strong></td>
-                          <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.correct_answers}}/10</strong></td>
-                        </tr>
-                      </tbody>
-                  </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <div id="section-start">
+        <div class="start d-flex align-items-center">
+            <div class="card w-100 text-center py-4 mx-auto">
+                <section class="container">
+                    <div class="row">
+                        <div class="col-12 col-xs-12 col-sm-8 col-md-12 col-lg-7 table-style">
+                            <div class="table-cell-style">
+                                <div class="heading_leaderboard_page">
+                                    <h2 class="heading_main">How well do you<br/>understand the<br/>social generation?</h2>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-1"></div>
+                        
+                        <div class="col-12 col-xs-12 col-sm-4 col-md-12 col-lg-4">
+                            <div class="leader_board text-left" id="leader_board">
+                                <div id="children">
+                                    <h2 class="text-left sub_heading">Leaderboard</h2>
 
-      <section class="pos-bottom">
-        <div class="mt-10 container">
-          <div class="row">
-            <div class="col-10">
-              <p class="text-left">Test your knowledge of the world of social by answering 10 questions as quick as you can and see if you have what it takes to become a social media expert.</p>
+                                    <table class="table">
+                                        <tbody>
+                                            <tr v-for="(score, index) in scores" v-if="index < 10">
+                                                <td><strong style="font-family:'giorgiosans-bolditalic'">{{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}</strong></td>
+                                                <td style="font-family:'gotham-book'; font-weight:normal;font-style:normal;">{{score.initial_name || score.user.full_name}}</td>
+                                                <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.time.minutes}}:{{score.time.seconds}}</strong></td>
+                                                <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.correct_answers}}/10</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="pos-bottom">
+                    <div class="mt-10 container">
+                        <div class="row">
+                            <div class="col-10">
+                                <p class="text-left">Test your knowledge of the world of social by answering 10 questions as quick as you can and see if you have what it takes to become a social media expert.</p>
+                            </div>
+
+                            <div class="col-2">
+                                <div class="text-right">
+                                    <button class="quiz-button" v-on:click="begainGame()">Start</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
-            <div class="col-2">
-              <div class="col text-right">
-                <button class="quiz-button" v-on:click="begainGame()">Start</button>
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-  
-      </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -198,117 +201,103 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
-  .start{
+<style scoped>
+#section-start{
+    background:black;
+    height:100%;
+}
+.start{
     background: url('../assets/images/dots_sm.png') no-repeat bottom right;
-  }
-
-  .heading_leaderboard_page{
+}
+.heading_leaderboard_page{
     text-align:left;
-    width:800px;
-  }
-  .heading_leaderboard_page:after{
+    width:900px;
+}
+.heading_leaderboard_page:after{
     content: '';
     background: #fff;
     padding-top: 10px;
-    width: 70%;
+    width: 90%;
     border: none;
     display: block;
     margin-top:30px;
-  }
-  h2.heading_main{
-    line-height:120px;
-    font-size:140px;
-  }
-  h2.sub_heading{
-    font-size:40px;
-  }
-  .table-style{
+}
+h2.heading_main{
+    line-height:130px;
+    font-size:160px;
+}
+h2.sub_heading{
+    font-size:54px;
+}
+.table-style{
     display:table;
-    height:450px;
-  }
-  .table-cell-style{
+    height:675px;
+}
+.table-cell-style{
     display:table-cell;
     vertical-align: middle;
-  }
-  .start {
+}
+.start {
     height: 100%;
-  }
-  .card{
+}
+.card{
     background:transparent;
     color:#fff;
-  }
-  .leader_board{
-    padding:20px;
-    background:#fff;
-    color:#000;
-    height:520px;
-  }
-  #children{
-  }
-  .quiz-button{
+}
+#children{
+}
+.quiz-button{
     margin-top: 0px;
     color: #000;
     border: none;
     border-radius: 30px;
-    font-size: 40px;
+    font-size: 50px;
     cursor: pointer;
     -webkit-transition: all ease-in-out .2s;
     transition: all ease-in-out .2s;
-    font-weight: bold;
     font-style: italic;
     padding-bottom: 1px;
     padding-left: 50px;
     padding-right: 50px;
-    line-height: 45px;
+    line-height: 60px;
     background: #fff;
-    font-weight: bold;
     font-family:'giorgiosans-bold';
-  }
-  .quiz-button:hover{
+}
+.quiz-button:hover{
     background:#cdcdcd;
     box-shadow:0px 0px 5px rgba(255,255,255,.5);
-  }
+}
 
-  .mt-10{
+.mt-10{
     margin-top:50px;
-  }
+}
 
-  .pos-bottom{
+.pos-bottom{
     position:fixed;
-    bottom:20px;
-  }
-
-  table td{
+    bottom:60px;
+    width: 100%;
+}
+table td{
     padding:0 10px;
-    font-size:27px;
+    font-size:36px;
     font-style:italic;
     border:none;
     font-weight:bold;
-  }
+}
+.container{
+   width:100%;
+   max-width:88%
+}
 
-  @media (min-width: 576px) {
 
-  }
-
-  @media (min-width: 768px) {
-
-  }
-
-  @media (min-width: 992px) {
-
-  }
-
-  @media (min-width: 1200px) {
-   .container{
-     width:100%;
-     max-width:80%
-   }
-    .leader_board{
-      width:400px;
-      float:right;
-    }
-  }
+.leader_board{
+    padding:35px;
+    background:#fff;
+    color:#000;
+    height:675px;
+    width:550px;
+    float:right;
+}
 
 
 </style>

@@ -148,13 +148,7 @@
 
     }
 </script>
-<style>
-    #app {
-        background:#fff;
-    }
-    body,html{
-        background:#fff;
-    }
+<style scoped>
     .top_heading{
         background:#000;
     }

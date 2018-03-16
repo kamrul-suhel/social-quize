@@ -166,10 +166,7 @@
 
 
 </script>
-<style>
-    #app{
-        background:#fff !important;
-    }
+<style scoped>
     .section{
         background:#000;
     }

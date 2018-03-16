@@ -145,7 +145,7 @@
         },
    }
 </script>
-<style>
+<style scoped>
     .answer_content{
         cursor:pointer;
         position:relative;
