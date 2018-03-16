@@ -41,8 +41,8 @@
 		src: url('./assets/fonts/giorgio_sans/GiorgioSans-Bolditalic.otf');
 	}
 	@font-face {
-		font-family: 'gotham-medium';
-		src: url('./assets/fonts/gotham/Gotham-Medium.otf');
+		font-family: 'gotham-book';
+		src: url('./assets/fonts/gotham/Gotham-Book.otf');
 	}
 
 	@font-face {

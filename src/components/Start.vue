@@ -19,10 +19,10 @@
                   <table class="table">
                       <tbody>
                         <tr v-for="(score, index) in scores" v-if="index < 10">
-                          <td><strong>{{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}</strong></td>
-                          <td style="font-family:'gotham-light'; font-weight:normal;font-style:normal;">{{score.initial_name || score.user.full_name}}</td>
-                          <td><strong>{{score.time.minutes}}:{{score.time.seconds}}</strong></td>
-                          <td><strong>{{score.correct_answers}}/10</strong></td>
+                          <td><strong style="font-family:'giorgiosans-bolditalic'">{{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}</strong></td>
+                          <td style="font-family:'gotham-book'; font-weight:normal;font-style:normal;">{{score.initial_name || score.user.full_name}}</td>
+                          <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.time.minutes}}:{{score.time.seconds}}</strong></td>
+                          <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.correct_answers}}/10</strong></td>
                         </tr>
                       </tbody>
                   </table>
@@ -30,13 +30,18 @@
             </div>
           </div>
         </div>
-        <div class="row mt-10">
-          <div class="col-10">
-            <p class="text-left">Test your knowledge of the world of social by answering 10 questions as quick as you can and see if you have what it takes to become a social media expert.</p>
-          </div>
-          <div class="col-2">
-            <div class="col text-right">
-              <button class="quiz-button" v-on:click="begainGame()">Start</button>
+      </section>
+
+      <section class="pos-bottom">
+        <div class="mt-10 container">
+          <div class="row">
+            <div class="col-10">
+              <p class="text-left">Test your knowledge of the world of social by answering 10 questions as quick as you can and see if you have what it takes to become a social media expert.</p>
+            </div>
+            <div class="col-2">
+              <div class="col text-right">
+                <button class="quiz-button" v-on:click="begainGame()">Start</button>
+              </div>
             </div>
           </div>
         </div>
@@ -105,6 +110,7 @@
                   };
                   this.scores = arr.keySort(sorto);
                   this.$store.commit('setLastId', this.scores.length);
+
               })
               .catch(function(data) {
                   console.log('Error: ', data)
@@ -238,7 +244,7 @@
     padding:20px;
     background:#fff;
     color:#000;
-    height:533px;
+    height:520px;
   }
   #children{
   }
@@ -270,9 +276,14 @@
     margin-top:50px;
   }
 
+  .pos-bottom{
+    position:fixed;
+    bottom:20px;
+  }
+
   table td{
     padding:0 10px;
-    font-size:28px;
+    font-size:27px;
     font-style:italic;
     border:none;
     font-weight:bold;

@@ -24,7 +24,7 @@
                             {{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}
                         </strong></div>
                     <div class="col-3">
-                        {{ score.initial_name || score.user.full_name }}
+                        {{ score.initial_name || score.user ? score.user.full_name : '' }}
                     </div>
                     <div class="col-6">
                         <div class="progress">
