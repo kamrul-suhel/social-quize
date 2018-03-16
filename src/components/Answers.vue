@@ -257,12 +257,11 @@
     .answer_tite p{
         line-height:40px;
         margin-top:15px;
-        font-family: 'gotham-light';
+        font-family: 'gotham-book';
     }
     .answer_tite span{
         font-size:30px;
-        font-family: 'gotham-light';
-        font-weight:bold;
+        font-family: 'gotham-book';
     }
     .submit_button{
         margin-top:25px;
