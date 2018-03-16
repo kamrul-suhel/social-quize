@@ -1,18 +1,11 @@
 <template>
-    <div class="game_timer_score">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-                    <div class="game_score text-left">
-                        <h3><strong>{{total}}/10</strong></h3>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div class="game_timer text-right">
-                        <h3><strong>{{time.minutes}}: {{time.second}}</strong></h3>
-                    </div>
-                </div>
-            </div>
+    <div class="game_timer">
+        <div class="game_timer_score">
+            <h3>{{total}}/10</h3>
+        </div>
+
+        <div class="game_timer_time">
+            <h3>{{ time.minutes ? time.minutes+':' : '' }} {{time.second}}s</h3>
         </div>
     </div>
 </template>
@@ -59,12 +52,14 @@
 
 <style>
     .game_timer_score{
-
+        position:absolute;
+        left:100px;
+        top:30px;
     }
-    .game_timer_score h3{
-        font-size: 60px;
-        font-family: 'giorgiosans-bold';
-        font-weight: bolder;
-        font-style: italic;
+
+    .game_timer_time{
+        position:absolute;
+        right:100px;
+        top:30px;
     }
 </style>

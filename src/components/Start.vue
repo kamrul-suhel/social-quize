@@ -7,7 +7,7 @@
                         <div class="col-12 col-xs-12 col-sm-8 col-md-12 col-lg-7 table-style">
                             <div class="table-cell-style">
                                 <div class="heading_leaderboard_page">
-                                    <h2 class="heading_main">How well do you<br/>understand the<br/>social generation?</h2>
+                                    <h1 class="heading_main">How well do you<br/>understand the<br/>social generation?</h1>
                                 </div>
                             </div>
                         </div>
@@ -222,13 +222,6 @@
     display: block;
     margin-top:30px;
 }
-h2.heading_main{
-    line-height:130px;
-    font-size:160px;
-}
-h2.sub_heading{
-    font-size:54px;
-}
 .table-style{
     display:table;
     height:675px;
@@ -244,37 +237,12 @@ h2.sub_heading{
     background:transparent;
     color:#fff;
 }
-#children{
-}
-.quiz-button{
-    margin-top: 0px;
-    color: #000;
-    border: none;
-    border-radius: 30px;
-    font-size: 50px;
-    cursor: pointer;
-    -webkit-transition: all ease-in-out .2s;
-    transition: all ease-in-out .2s;
-    font-style: italic;
-    padding-bottom: 1px;
-    padding-left: 50px;
-    padding-right: 50px;
-    line-height: 60px;
-    background: #fff;
-    font-family:'giorgiosans-bold';
-}
-.quiz-button:hover{
-    background:#cdcdcd;
-    box-shadow:0px 0px 5px rgba(255,255,255,.5);
-}
-
 .mt-10{
     margin-top:50px;
 }
-
 .pos-bottom{
     position:fixed;
-    bottom:60px;
+    bottom:50px;
     width: 100%;
 }
 table td{
@@ -288,10 +256,8 @@ table td{
    width:100%;
    max-width:88%
 }
-
-
 .leader_board{
-    padding:35px;
+    padding:30px 35px;
     background:#fff;
     color:#000;
     height:675px;

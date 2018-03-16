@@ -92,16 +92,34 @@
 		outline: 0!important;
 	}
 
-	h2{
-		font-size:90px;
-		font-family:giorgiosans-bolditalic
-	}
-	h2.sub_heading{
-		font-size:30px;
+	h1.heading_main{
+		line-height:130px;
+	    font-size:160px;
+	    font-family:giorgiosans-bolditalic;
 	}
 
-	p{
-		font-size:34px;
+	h2.large{
+		font-size:135px;
+		line-height:100px;
+		font-family:giorgiosans-bolditalic
+	}
+
+	h2.sub_heading{
+	    font-size:54px;
+	    font-weight:bold;
+	    font-family:giorgiosans-bolditalic;
+	}
+
+	#app h3{
+        font-size: 60px;
+        font-family: 'giorgiosans-bold';
+        font-weight: bolder;
+        font-style: italic;
+    }
+
+	#app p{
+		font-size:50px;
+		line-height:50px;
 	}
 
 	
@@ -151,18 +169,17 @@
 	}
 
 	.quiz-button{
-		margin-top: 25px;
+		padding: 0px 50px;
+		margin-top: 20px;
 		color: #000;
-		background:#cdcdcd;
+		background:#ffffff;
 		border: none;
 		border-radius: 30px;
-		font-size: 30px;
+		font-size: 50px;
 		cursor: pointer;
-		transition: all ease-in-out .2s;
-		font-weight: bold;
 		font-style: italic;
-		padding: 0px 20px;
-		padding-bottom: 1px;
+		font-family:'giorgiosans-bold';
+				
 		-webkit-transition:all ease-in-out .2s;
 		-moz-transition:all ease-in-out .2s;
 		-o-transition:all ease-in-out .2s;

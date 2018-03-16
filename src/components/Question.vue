@@ -1,18 +1,17 @@
 <template>
-    <div class="container">
+    <section class="question">
         <transition name="fade">
-            <div class="row heading">
-                <div class="col">
-                    <h2 class="text-center">{{ question }}</h2>
-                </div>
-            </div>
+            <h2 class="large text-center">{{ question }}</h2>
         </transition>
-    </div>
+    </section>
 </template>
 <script>
    export default{
        props:['question']
    }
 </script>
-<style  >
+<style scoped>
+.question{
+    margin-top:150px;
+}
 </style>

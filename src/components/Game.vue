@@ -1,10 +1,8 @@
 <template>
-    <section class="game_view_table">
-        <section class="game_view">
-            <timer-component v-on:total_time="time_toplay($event)" v-bind:total="total_question"></timer-component>
-            <question v-bind:question='question'></question>
-            <answers v-bind:answers='object' v-on:nextQuestion='getQuestion($event)'></answers>
-        </section>
+    <section class="game_view">
+        <timer-component v-on:total_time="time_toplay($event)" v-bind:total="total_question"></timer-component>
+        <question v-bind:question='question'></question>
+        <answers v-bind:answers='object' v-on:nextQuestion='getQuestion($event)'></answers>
     </section>
 </template>
 
@@ -84,52 +82,30 @@
 </script>
 
 <style scoped>
-    .heading{
-        -webkit-animation: fade-in .3s forwards;
-    }
-    .game_view_table{
-        height:100%;
-        width:100%;
-        display:table;
-    }
-    .game_view{
-        display:table-cell;
-        vertical-align:middle;
-    }
-
-.game{
-	min-height: 100vh;
+.heading{
+    -webkit-animation: fade-in .3s forwards;
+}
+.game_view{
+	top:160px;
+}
+.container{
+    width:80%;
+    max-width:80%
 }
 
-    @keyframes fade-in {
-        from{
-            opacity:0;
-        }
-        to{
-            opacity:1;
-        }
+.leader_board{
+    width:400px;
+    float:right;
+}
+
+@keyframes fade-in {
+    from{
+        opacity:0;
     }
-
-    @media (min-width: 576px) {
-
+    to{
+        opacity:1;
     }
+}
 
-    @media (min-width: 768px) {
 
-    }
-
-    @media (min-width: 992px) {
-
-    }
-
-    @media (min-width: 1200px) {
-        .container{
-            width:80%;
-            max-width:80%
-        }
-        .leader_board{
-            width:400px;
-            float:right;
-        }
-    }
 </style>
