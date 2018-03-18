@@ -42,7 +42,7 @@
       "difficulty": "easy",
       "image" :"",
       "question": "Why is someone called a “snake”?",
-      "correct_answer": {"answer":1, "text": "Some text correct"},
+      "correct_answer": {"answer":1, "text": "When they backstab someone"},
       "incorrect_answers": [
         {"answer": 0, "text": "When they slither in the DMs"},
         {"answer": 0, "text": "When they’re sneaky"},

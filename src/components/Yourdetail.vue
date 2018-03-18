@@ -41,7 +41,7 @@
                             <input type="checkbox" id="term" v-model="user.term_conditions" @blur="$v.user.term_conditions.$touch()"/>
                         </div>
                         <div class="col-6">
-                            <label class="term" for="term"><span :class="{'text-danger': $v.user.term_conditions.$error}">I agreed to the <a href="" class="term_condition" @click.prevent="gototermsCondition()">Terms &amp; conditions</a></span></label>
+                            <label class="term" for="term"><span :class="{'text-danger': $v.user.term_conditions.$error}">I agree to the <a href="" class="term_condition" @click.prevent="gototermsCondition()">Terms &amp; conditions</a></span></label>
                         </div>
                     </div>
 
@@ -93,6 +93,7 @@
             submitForm() {
                 this.$v.user.$touch();
                 if(!this.$v.user.$invalid){
+
                     var created_at = new Date().toISOString().slice(0, 19).replace('T', ' ');
                     var initial_name = this.$store.getters.getInitialName;
                     var answer = this.$store.getters.getIncorrectCorrect;
@@ -107,8 +108,10 @@
                         user:{
                             full_name: this.user.full_name,
                             email: this.user.email,
-                            company: this.user.company
+                            company: this.user.company,
+                            terms: this.user.term_conditions
                         },
+
                         correct_answers: answer.correct_answers,
                         incorrect_answers: answer.incorrect_answers,
                         milliseconds: this.$store.getters.getMilliseconds,
@@ -117,6 +120,11 @@
                         unique_id: this.last_id,
                         initial_name: initial_name
                     };
+
+                    this.user.full_name = '';
+                    this.user.email = '';
+                    this.user.company = '';
+                    this.user.term_conditions = '';
 
                     this.$http.post('https://unilad-expo-quiz.firebaseio.com/results.json', upload)
                         .then(function(data) {
@@ -131,6 +139,7 @@
                 }
 
             },
+
             gototermsCondition(){
                 this.$store.commit('setUser', this.user);
                 this.$router.push({
