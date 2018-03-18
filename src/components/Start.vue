@@ -4,7 +4,7 @@
             <div class="card w-100 text-center py-4 mx-auto">
                 <section class="container">
                     <div class="row">
-                        <div class="col-12 col-xs-12 col-sm-8 col-md-12 col-lg-7 table-style">
+                        <div class="col-8 table-style">
                             <div class="table-cell-style">
                                 <div class="heading_leaderboard_page">
                                     <h1 class="heading_main">How well do you<br/>understand the<br/>social generation?</h1>
@@ -12,9 +12,7 @@
                             </div>
                         </div>
                         
-                        <div class="col-lg-1"></div>
-                        
-                        <div class="col-12 col-xs-12 col-sm-4 col-md-12 col-lg-4">
+                        <div class="col-4">
                             <div class="leader_board text-left" id="leader_board">
                                 <div id="children">
                                     <h2 class="text-left sub_heading">Leaderboard</h2>
@@ -36,22 +34,18 @@
                 </section>
 
                 <section class="pos-bottom">
-                    <div class="mt-10 container">
+                    <div class="container">
                         <div class="row">
                             <div class="col-10">
-                                <p class="text-left">Test your knowledge of the world of social by answering 10 questions as quick as you can and see if you have what it takes to become a social media expert.</p>
-                            </div>
-
-                            <div class="col-2">
-                                <div class="text-right">
-                                    <button class="quiz-button" v-on:click="begainGame()">Start</button>
-                                </div>
+                                <p class="text-left">Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.</p>
                             </div>
                         </div>
                     </div>
                 </section>
             </div>
         </div>
+
+        <button class="quiz-button" v-on:click="begainGame()">Start</button>
     </div>
 </template>
 
@@ -236,13 +230,14 @@
 .card{
     background:transparent;
     color:#fff;
+    margin-bottom:100px;
 }
 .mt-10{
     margin-top:50px;
 }
 .pos-bottom{
-    position:fixed;
-    bottom:50px;
+    position: fixed;
+    bottom: 40px;
     width: 100%;
 }
 table td{

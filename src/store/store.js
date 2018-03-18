@@ -23,7 +23,9 @@ export const store = new Vuex.Store({
         questions: [],
         userQuestions: []
     },
+
     getters: {},
+
     mutations: {
         translateData: function (state, questions) {
             var array = [];
@@ -104,71 +106,37 @@ export const store = new Vuex.Store({
         getQuestions(context) {
             return new Promise(function (resolve, reject) {
                 var newObject = JSON.parse(JSON.stringify(data));
-                var quize_question = getQuizquestion(newObject);
-                // console.log(quize_question);
-                context.commit('translateData', quize_question);
+                var quiz_question = getQuizquestion(newObject);
+                context.commit('translateData', quiz_question);
                 resolve(true);
             })
         }
     }
 }),
 
-shuffle = function (a) {
-    for (let i = a.length; i; i--) {
-        let j = Math.floor(Math.random() * i);
-        [a[i - 1], a[j]] = [a[j], a[i - 1]];
-    }
-    return a;
+shuffle = function (a, n) {
+    var shuffled = a.sort(() => .5 - Math.random());// shuffle  
+    return shuffled.slice(0,n);
 },
+
 getQuizquestion = function(data) {
     // data random
+    var q_easy = 24; // Max 24
+    var q_medium = 0; // Max 17
+    var q_hard = 0; // Max 19
     var result = [];
-    var easy = [];
-    var medium = [];
-    var hard = [];
 
+    var easy = shuffle(data.easy, q_easy);
+    var medium = shuffle(data.medium, q_medium);
+    var hard = shuffle(data.hard, q_hard);
 
-    var duplicate_number = [];
-    var incomplete = true;
-    while(incomplete){
-        var random_number = Math.floor(Math.random() * 59) +1;
-
-        if(duplicate_number.includes(random_number)){
-            continue
-        }
-
-        if(data[random_number].difficulty == 'easy'){
-            if(easy.length < 3){
-                easy.push(data[random_number]);
-                duplicate_number.push(random_number);
-            }
-        }
-
-        if(data[random_number].difficulty == 'medium'){
-            if(medium.length < 3){
-                medium.push(data[random_number]);
-                duplicate_number.push(random_number);
-            }
-        }
-
-        if(data[random_number].difficulty == 'hard'){
-            if(hard.length < 4){
-                hard.push(data[random_number]);
-                duplicate_number.push(random_number);
-            }
-        }
-
-        if(duplicate_number.length == 10){
-            incomplete = false;
-        }
-    }
-
-    // Push 10 question to resutl variable
+    // // Push 10 question to resutl variable
     result.push(... easy);
     result.push(... medium);
     result.push(... hard);
-    var quize_data_shuffle = shuffle(result);
-    return quize_data_shuffle;
+    
+    var quiz_data_shuffle = shuffle(result);
+    return quiz_data_shuffle;
 }
 
 

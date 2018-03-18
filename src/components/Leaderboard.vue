@@ -1,32 +1,27 @@
 <template>
     <section class="parent_section">
-        <section class="section" >
-            <div class="container top_heading">
-                <div class="row top_heading_content">
-                    <div class="col">
-                        <h2>Leaderboard</h2>
-                    </div>
-                </div>
+        <section class="section_leaderboard">
+            <div class="top_heading">
+                <h2 class="large">Leaderboard</h2>
             </div>
         </section>
-
-
 
         <section class="leader_board_content">
             <div class="container">
                 <div class="row" v-for="(score, index) in scores"
                      :class="{'text-info': selected_id == score.unique_id}"
                      :data-id="score.unique_id"
-                     :id="score.unique_id"
+                     :id="'ref_'+score.unique_id"
                 >
                     <div class="col-1">
-                        <strong style="font-style:italic;">
-                            {{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}
-                        </strong></div>
-                    <div class="col-3">
-                        {{ score.initial_name || score.user ? score.user.full_name : '' }}
+                        <h4>{{ index+1 }}{{ index+1 | pluralize('st','nd','rd','th') }}</h4>
                     </div>
-                    <div class="col-6">
+
+                    <div class="col-2">
+                        <p class="initials">{{ score.initial_name }}</p>
+                    </div>
+
+                    <div class="col-7">
                         <div class="progress">
                             <div class="progress-bar" role="progressbar"
                                  :class="{'bg-info': selected_id == score.unique_id}"
@@ -34,33 +29,28 @@
                                  :aria-valuenow="score.correct_answers"
                                  :aria-valuemin="score.correct_answers"
                                  aria-valuemax="100">
-                                {{score.correct_answers}}0%
                             </div>
                         </div>
                     </div>
+
                     <div class="col-1">
-                        <strong>{{score.time.minutes}}:{{score.time.seconds}}</strong>
+                        <h4>{{score.time.minutes}}:{{ score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds }}</h4>
                         {{ score.time.offsetX}}
                     </div>
-                    <div class="col-1"><strong>{{score.correct_answers}}/10</strong></div>
-                </div>
-            </div>
-        </section>
 
-        <section class="navigation">
-            <div class="container">
-                <div class="row">
-                    <div class="col text-right">
-                        <router-link :to="'/'">
-                            <a class="leader_board_button">Next</a>
-                        </router-link>
+                    <div class="col-1">
+                        <h4>{{score.correct_answers}}/10</h4>
                     </div>
                 </div>
             </div>
         </section>
 
+        <router-link :to="'/'">
+            <button class="quiz-button inverted">Next</button>
+        </router-link>
     </section>
 </template>
+
 <script>
     export default{
         name:'leader_board',
@@ -74,10 +64,15 @@
 
         },
         created(){
+            console.log('moo');
+            console.log($("#ref_"+this.$route.query.id).offset());
+            //scrollTop: $("#ref_"+this.$route.query.id).offset().top;
+
+
             if(this.$route.query.id){
                 this.selected_id = this.$route.query.id;
-
             }
+
             this.$http.get('https://unilad-expo-quiz.firebaseio.com/results.json')
                 .then(function(data) {
                     let arr = []
@@ -93,7 +88,6 @@
                 })
         }
     }
-
 
     Array.prototype.keySort = function(keys) {
 
@@ -162,35 +156,27 @@
         });
         return this;
     };
-
-
-
 </script>
 <style scoped>
-    .section{
-        background:#000;
+    .section_leaderboard{
+        position:fixed;
+        top: 0;
+        width:100%;
+        z-index:1;
     }
-    .top_heading{
-        background:#000;
-    }
-    .leader_board_heading{
-        height:250px;
-        display:table;
+    .initials{
+        padding-top:5px;
+        text-transform: uppercase;
     }
     .navigation{
         padding:40px 0px;
-        background:#fff;
+        background: #fff;
+        position: absolute;
+        bottom: 0;
     }
-
-    .heading_content{
-        display:table-cell;
-        vertical-align: middle;
-        text-align:center;
-    }
-
     .leader_board_content{
         background:#fff;
-        padding-top:40px;
+        padding:300px 0 150px 0;
         color:#000;
     }
     .progress{
@@ -209,27 +195,8 @@
         color:#000 !important;
     }
 
-
-    @media (min-width: 576px) {
-
-    }
-
-    @media (min-width: 768px) {
-        .leader_board_content .container, .navigation .container{
-            width:75%;
-        }
-    }
-
-    @media (min-width: 992px) {
-        .leader_board_content .container, .navigation .container{
-            width:50%;
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .leader_board_content .container, .navigation .container{
-            width:50%;
-        }
+    .leader_board_content .container, .navigation .container{
+        width:50%;
     }
 
 </style>

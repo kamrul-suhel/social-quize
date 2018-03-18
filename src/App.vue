@@ -13,7 +13,6 @@
 </script>
 
 <style>
-
 	.fade-enter-active, .fade-leave-active {
 		transition-property: opacity;
 		transition-duration: .25s;
@@ -69,10 +68,12 @@
 	}
 
 	.top_heading{
-		height:250px;
-		display:table;
-		font-style:italic;
-	}
+        height:250px;
+        background:#000;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 	.top_heading_content{
 		display:table-cell;
@@ -100,8 +101,9 @@
 
 	h2.large{
 		font-size:135px;
-		line-height:100px;
-		font-family:giorgiosans-bolditalic
+		line-height:135px;
+		font-family:giorgiosans-bolditalic;
+		margin-bottom:0;
 	}
 
 	h2.sub_heading{
@@ -117,9 +119,17 @@
         font-style: italic;
     }
 
+    #app h4{
+        font-size: 40px;
+        font-family: 'giorgiosans-bolditalic';
+        font-weight: bolder;
+        font-style: italic;
+    }
+
 	#app p{
-		font-size:50px;
-		line-height:50px;
+		font-size:32px;
+		line-height:45px;
+		font-family: 'gotham-book';
 	}
 
 	
@@ -169,26 +179,27 @@
 	}
 
 	.quiz-button{
-		padding: 0px 50px;
-		margin-top: 20px;
+		padding: 0px 52px 5px 50px;
 		color: #000;
-		background:#ffffff;
+		background: #ffffff;
 		border: none;
-		border-radius: 30px;
-		font-size: 50px;
+		border-radius: 35px;
+		font-size: 55px;
+		line-height: 65px;
 		cursor: pointer;
-		font-style: italic;
-		font-family:'giorgiosans-bold';
-				
-		-webkit-transition:all ease-in-out .2s;
-		-moz-transition:all ease-in-out .2s;
-		-o-transition:all ease-in-out .2s;
-		-ms-transition:all ease-in-out .2s;
-		transition:all ease-in-out .2s;
+		font-family: 'giorgiosans-bolditalic';
+		transition: all ease-in-out .2s;
+		position:fixed;
+		right: 130px;
+		bottom: 50px;
 	}
 	.quiz-button:hover{
 		background:#fff;
 		box-shadow:0px 0px 5px rgba(255,255,255,.5);
+	}
+	.quiz-button.inverted{
+		background:#000;
+		color:#fff;
 	}
 
 	/* custome scroll style */

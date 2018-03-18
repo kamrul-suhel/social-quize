@@ -16,12 +16,13 @@
         mixins: [VueTimers],
         name:'game',
         components:{
-        question: Question,
-        answers: Answers,
-        'timer-component': Timer,
-      },
-      data: function(){
-  			return {
+            question: Question,
+            answers: Answers,
+            'timer-component': Timer,
+        },
+
+        data: function(){
+    		return {
                 questions: this.$store.state.questions,
                 total_question: 0,
                 question: '',
@@ -35,6 +36,7 @@
                 startTime: Date.now()
             }
         },
+
         methods:{
             getQuestion: function(answer){
                 if(answer){
@@ -47,7 +49,10 @@
                     this.object.useranswer = 0;
                     this.$store.commit('setUserQuestion', this.object);
                 }
-                else if(answer == null){}
+                else if(answer == null){
+
+                }
+
                 if(this.questions[0]){
                     this.total_question++;
                     this.gameActive = true;
@@ -69,13 +74,13 @@
                 this.$store.commit('setTotalTimetoplay',time);
             }
         },
+
         created(){
             this.getQuestion();
             this.totalTimeMillisecond();
             this.$options.interval = setInterval(this.totalTimeMillisecond, 10);
-
-            console.log(this.object);
         },
+
         destroyed() {
         }
     }
@@ -92,7 +97,6 @@
     width:80%;
     max-width:80%
 }
-
 .leader_board{
     width:400px;
     float:right;
@@ -106,6 +110,4 @@
         opacity:1;
     }
 }
-
-
 </style>

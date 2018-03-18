@@ -184,7 +184,6 @@
 </script>
 
 <style>
-
     .game_timer_score {
         margin-top:20px;
         font-size:40px;

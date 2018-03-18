@@ -1,12 +1,8 @@
 <template>
     <section class="user">
-        <section style="background:#000">
-            <div class="container top_heading">
-                <div class="row top_heading_content">
-                    <div class="col text-center">
-                        <h2>Your details</h2>
-                    </div>
-                </div>
+        <section>
+            <div class="top_heading">
+                <h2 class="large">Your details</h2>
             </div>
         </section>
 
@@ -14,43 +10,43 @@
             <div class="container">
                 <form @submit="$v.$touch()">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-sm-left text-md-right text-lg-right text-xl-right">
-                            <label for="first_name" :class="{'text-danger': $v.user.full_name.$error}">Full name:*</label>
+                        <div class="col-6 text-right">
+                            <label for="first_name" :class="{'text-danger': $v.user.full_name.$error}">Full Name:*</label>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                        <div class="col-6">
                             <input type="text" id="first_name" v-model="user.full_name" @blur="$v.user.full_name.$touch()"/>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-sm-left text-md-right text-lg-right text-xl-right">
+                        <div class="col-6 text-right">
                             <label for="company" :class="{'text-danger': $v.user.company.$error}">Company:*</label>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                        <div class="col-6">
                             <input type="text" id="company" v-model="user.company" @blur="$v.user.company.$touch()"/>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-sm-left text-md-right text-lg-right text-xl-right">
+                        <div class="col-6 text-right">
                             <label for="email" :class="{'text-danger' : $v.user.email.$error}">Email:*</label>
                         </div>
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-6 text-left">
+                        <div class="col-6 text-left">
                             <input type="text" id="email" v-model="user.email" @blur="$v.user.email.$touch()"/>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col-6 text-right"></div>
-                        <div class="col-6 text-left">
+                        <div class="col-6 text-right">
                             <input type="checkbox" id="term" v-model="user.term_conditions" @blur="$v.user.term_conditions.$touch()"/>
-                            <label for="term"><span :class="{'text-danger': $v.user.term_conditions.$error}">I agreed to this terms & conditions</span></label>
-                            <a href="" class="term_condition" @click.prevent="gototermsCondition()">Terms & condition</a>
+                        </div>
+                        <div class="col-6">
+                            <label class="term" for="term"><span :class="{'text-danger': $v.user.term_conditions.$error}">I agreed to the <a href="" class="term_condition" @click.prevent="gototermsCondition()">Terms &amp; conditions</a></span></label>
                         </div>
                     </div>
 
                     <div class="row">
-                        <div class="col text-center">
+                        <div class="col text-right">
                             <input @click.prevent="submitForm" type="submit" value="Submit"/>
                         </div>
                     </div>
@@ -149,41 +145,43 @@
     }
 </script>
 <style scoped>
-    .top_heading{
-        background:#000;
-    }
     .your_detail{
         background:#fff;
-        padding-top:50px;
         color:#000;
-        padding-bottom:50px;
+        padding:50px 0;
     }
     .your_detail .row {
         margin-top:20px;
     }
     .your_detail .row label {
-        font-family:'giorgiosans-bold';
-        font-weight:bold;
-        font-style:italic;
+        font-family:'giorgiosans-bolditalic';
+        font-size: 60px;
     }
     .your_detail .row input{
+        font-family:'giorgiosans-bolditalic';
+        font-size: 60px;
         border:none;
         border-bottom:1px solid #000;
         width:100%;
-        -webkit-transition:all ease-in-out .2s;
-        -moz-transition:all ease-in-out .2s;
-        -ms-transition:all ease-in-out .2s;
-        -o-transition:all ease-in-out .2s;
         transition:all ease-in-out .2s;
+    }
+    .your_detail .row label.term{
+        font-size: 40px;
+    }
+    .your_detail .row label a{
+        color: #000;
+    }
+    .your_detail .row label .text-danger a{
+        color: #606060;
     }
     .your_detail .row input[type='checkbox']{
         width:auto;
-        height:17px;
         margin-right:10px;
+        transform: scale(2.5);
     }
     .your_detail .row input[type='submit']{
-        font-family:'giorgiosans-bold';
-        font-wize:20px;
+        font-family:'giorgiosans-bolditalic';
+        font-size:50px;
         padding:10px 15px;
         background:#000;
         color:#fff;
@@ -193,41 +191,10 @@
         border:none;
     }
     .your_detail .row input[type='submit']:hover{
-        background:#777;
-    }
-    a.term_condition{
-        display:inline-block;
-        color:#000;
-        font-size:14px;
-        margin-left:10px;
+        background:#000;
     }
 
     input:-webkit-autofill {
         background:transparent;
     }
-
-    @media (min-width: 576px) {
-        .your_detail .row input{
-            width:100%;
-        }
-    }
-
-    @media (min-width: 768px) {
-        .your_detail .row input{
-            width:50%;
-        }
-    }
-
-    @media (min-width: 992px) {
-        .your_detail .row input{
-            width:50%;
-        }
-    }
-
-    @media (min-width: 1200px) {
-        .your_detail .row input{
-            width:50%;
-        }
-    }
-
 </style>
