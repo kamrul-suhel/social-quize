@@ -121,9 +121,9 @@ shuffle = function (a, n) {
 
 getQuizquestion = function(data) {
     // data random
-    var q_easy = 24; // Max 24
-    var q_medium = 0; // Max 17
-    var q_hard = 0; // Max 19
+    var q_easy = 3; // Max 24
+    var q_medium = 4; // Max 17
+    var q_hard = 3; // Max 19
     var result = [];
 
     var easy = shuffle(data.easy, q_easy);

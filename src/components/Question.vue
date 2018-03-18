@@ -13,7 +13,8 @@
 <style scoped>
   .question{
       width: 90%;
-      margin:130px auto 0;
-      min-height:300px;
+      margin:0 auto;
+      padding-top:130px;
+      min-height:430px;
   }
 </style>

@@ -5,11 +5,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Who has the most liked instagram photo at the moment?",
-      "correct_answer": {"answer":1, "image": "/static/images/3/kylie-jenner2.jpg","text": "Kylie Jenner"},
+      "correct_answer": {"answer":1, "image": "static/images/3/kylie-jenner2.jpg","text": "Kylie Jenner"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/2/image.jpeg", "text": "Kendall Jenner"},
-        {"answer": 0, "image": "/static/images/2/beyonce-pregnant-bump-pic-ftr.jpg", "text": "Beyonce"},
-        {"answer": 0, "image": "/static/images/2/selena-gomez-coca-cola-ads-ftr.jpg", "text": "Selena Gomez"}
+        {"answer": 0, "image": "static/images/2/image.jpeg", "text": "Kendall Jenner"},
+        {"answer": 0, "image": "static/images/2/beyonce-pregnant-bump-pic-ftr.jpg", "text": "Beyonce"},
+        {"answer": 0, "image": "static/images/2/selena-gomez-coca-cola-ads-ftr.jpg", "text": "Selena Gomez"}
       ]
     },
     {
@@ -17,11 +17,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "What is the world's most popular social network?",
-      "correct_answer": {"answer":1, "image": "/static/images/4/FB-f-Logo__blue_1024.png","text": "Facebook"},
+      "correct_answer": {"answer":1, "image": "static/images/4/FB-f-Logo__blue_1024.png","text": "Facebook"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/4/580b57fcd9996e24bc43c543-copy.png", "text": "Whatsapp"},
-        {"answer": 0, "image": "/static/images/4/Facebook_Messenger_logo.png", "text": "Facebook messenger"},
-        {"answer": 0, "image": "/static/images/4/Twitter_logo_bird_transparent_png.png", "text": "Twitter"}
+        {"answer": 0, "image": "static/images/4/580b57fcd9996e24bc43c543-copy.png", "text": "Whatsapp"},
+        {"answer": 0, "image": "static/images/4/Facebook_Messenger_logo.png", "text": "Facebook messenger"},
+        {"answer": 0, "image": "static/images/4/Twitter_logo_bird_transparent_png.png", "text": "Twitter"}
       ]
     },
     {
@@ -29,11 +29,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "What is the most popular social networking app?",
-      "correct_answer": {"answer":1, "image": "/static/images/6/580b57fcd9996e24bc43c543.png","text": "Whatsapp"},
+      "correct_answer": {"answer":1, "image": "static/images/6/580b57fcd9996e24bc43c543.png","text": "Whatsapp"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/6/viber_PNG7.png", "text": "Viber"},
-        {"answer": 0, "image": "/static/images/6/Facebook_Messenger_logo.svg-copy.png", "text": "Facebook messenger"},
-        {"answer": 0, "image": "/static/images/6/1200x630bb.png", "text": "QQ Chat"}
+        {"answer": 0, "image": "static/images/6/viber_PNG7.png", "text": "Viber"},
+        {"answer": 0, "image": "static/images/6/Facebook_Messenger_logo.svg-copy.png", "text": "Facebook messenger"},
+        {"answer": 0, "image": "static/images/6/1200x630bb.png", "text": "QQ Chat"}
       ]
     },
     {
@@ -92,7 +92,7 @@
       "id": 14,
       "type": "image_text",
       "difficulty": "easy",
-      "image" :"/static/images/14/fb.png",
+      "image" :"static/images/14/fb.png",
       "question": "What year was Facebook founded?",
       "correct_answer": {"answer":1, "text": "2004"},
       "incorrect_answers": [
@@ -106,11 +106,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "What is the most viewed video on youtube?",
-      "correct_answer": {"answer":1, "image": "/static/images/16/maxresdefault-2.jpg","text": "“Despacito” - Luis Fonsi"},
+      "correct_answer": {"answer":1, "image": "static/images/16/maxresdefault-2.jpg","text": "“Despacito” - Luis Fonsi"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/16/maxresdefault.jpg", "text": "“Gangnam Style” - Psy"},
-        {"answer": 0, "image": "/static/images/16/maxresdefault-1.jpg", "text": "“Donald Trump Singing Despacito”"},
-        {"answer": 0, "image": "/static/images/16/see_you_again.jpg", "text": "“See You Again” - Wiz Khalifa"}
+        {"answer": 0, "image": "static/images/16/maxresdefault.jpg", "text": "“Gangnam Style” - Psy"},
+        {"answer": 0, "image": "static/images/16/maxresdefault-1.jpg", "text": "“Donald Trump Singing Despacito”"},
+        {"answer": 0, "image": "static/images/16/see_you_again.jpg", "text": "“See You Again” - Wiz Khalifa"}
       ]
     },
     {
@@ -156,11 +156,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Which one of these was not a real online challenge?",
-      "correct_answer": {"answer":1, "image": "/static/images/23/khloe-kardashian.jpg","text": "The Khloe challenge"},
+      "correct_answer": {"answer":1, "image": "static/images/23/khloe-kardashian.jpg","text": "The Khloe challenge"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/23/cinnamon.jpg", "text": "The cinnamon challenge"},
-        {"answer": 0, "image": "/static/images/23/image.jpeg", "text": "The Tide pod challenge"},
-        {"answer": 0, "image": "/static/images/23/flat.jpg", "text": "The Kylie Jenner challenge"}
+        {"answer": 0, "image": "static/images/23/cinnamon.jpg", "text": "The cinnamon challenge"},
+        {"answer": 0, "image": "static/images/23/image.jpeg", "text": "The Tide pod challenge"},
+        {"answer": 0, "image": "static/images/23/flat.jpg", "text": "The Kylie Jenner challenge"}
       ]
     },
     {
@@ -168,18 +168,18 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Which one came out first?",
-      "correct_answer": {"answer":1, "image": "/static/images/30/icq.png","text": "ICQ"},
+      "correct_answer": {"answer":1, "image": "static/images/30/icq.png","text": "ICQ"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/30/myspace.jpg", "text": "MySpace"},
-        {"answer": 0, "image": "/static/images/30/msn.jpg", "text": "Msn Messenger"},
-        {"answer": 0, "image": "/static/images/30/bebo.jpg", "text": "Bebo"}
+        {"answer": 0, "image": "static/images/30/myspace.jpg", "text": "MySpace"},
+        {"answer": 0, "image": "static/images/30/msn.jpg", "text": "Msn Messenger"},
+        {"answer": 0, "image": "static/images/30/bebo.jpg", "text": "Bebo"}
       ]
     },
     {
       "id": 42,
       "type": "image_text",
       "difficulty": "easy",
-      "image" :"/static/images/42/double-rainbow.jpg",
+      "image" :"static/images/42/double-rainbow.jpg",
       "question": "How many rainbows did Paul Vasquez see at Yosemite park?",
       "correct_answer": {"answer":1, "text": "Two"},
       "incorrect_answers": [
@@ -192,7 +192,7 @@
       "id": 43,
       "type": "image_text",
       "difficulty": "easy",
-      "image" :"/static/images/43/charlie.png",
+      "image" :"static/images/43/charlie.png",
       "question": "What is the name of the boy that bit his brother in 2007?",
       "correct_answer": {"answer":1, "text": "Charlie"},
       "incorrect_answers": [
@@ -217,7 +217,7 @@
       "id": 49,
       "type": "image_text",
       "difficulty": "easy",
-      "image" :"/static/images/49/flat.jpg",
+      "image" :"static/images/49/flat.jpg",
       "question": "What is the meme called?",
       "correct_answer": {"answer":1, "text": "Troll Face"},
       "incorrect_answers": [
@@ -231,11 +231,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Which social network has the most users?",
-      "correct_answer": {"answer":1, "image": "/static/images/54/fb.png","text": "Facebook"},
+      "correct_answer": {"answer":1, "image": "static/images/54/fb.png","text": "Facebook"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/54/insta.png", "text": "Instagram"},
-        {"answer": 0, "image": "/static/images/54/twitter.png", "text": "Twitter"},
-        {"answer": 0, "image": "/static/images/54/vero.jpg", "text": "Vero"}
+        {"answer": 0, "image": "static/images/54/insta.png", "text": "Instagram"},
+        {"answer": 0, "image": "static/images/54/twitter.png", "text": "Twitter"},
+        {"answer": 0, "image": "static/images/54/vero.jpg", "text": "Vero"}
       ]
     },
     {
@@ -255,11 +255,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Which one of these political figures has the most followers on Twitter?",
-      "correct_answer": {"answer":1, "image": "/static/images/56/obama.jpg","text": "Barack Obama"},
+      "correct_answer": {"answer":1, "image": "static/images/56/obama.jpg","text": "Barack Obama"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/56/donald-trump.png", "text": "Donald Trump"},
-        {"answer": 0, "image": "/static/images/56/flat.jpg", "text": "Theresa May"},
-        {"answer": 0, "image": "/static/images/56/hillary_clinton.png", "text": "Hillary Clinton"}
+        {"answer": 0, "image": "static/images/56/donald-trump.png", "text": "Donald Trump"},
+        {"answer": 0, "image": "static/images/56/flat.jpg", "text": "Theresa May"},
+        {"answer": 0, "image": "static/images/56/hillary_clinton.png", "text": "Hillary Clinton"}
       ]
     },
     {
@@ -267,11 +267,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Who founded Facebook?",
-      "correct_answer": {"answer":1, "image": "/static/images/57/flat.jpg","text": "Mark Zuckerberg"},
+      "correct_answer": {"answer":1, "image": "static/images/57/flat.jpg","text": "Mark Zuckerberg"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/57/bill-gates.jpg", "text": "Bill Gates"},
-        {"answer": 0, "image": "/static/images/57/topic_steve.jpg", "text": "Steve Jobs"},
-        {"answer": 0, "image": "/static/images/57/bezos_jeff.jpg", "text": "Jeff Bezos"}
+        {"answer": 0, "image": "static/images/57/bill-gates.jpg", "text": "Bill Gates"},
+        {"answer": 0, "image": "static/images/57/topic_steve.jpg", "text": "Steve Jobs"},
+        {"answer": 0, "image": "static/images/57/bezos_jeff.jpg", "text": "Jeff Bezos"}
       ]
     },
     {
@@ -279,11 +279,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Which one is Instagram’s original logo?",
-      "correct_answer": {"answer":1, "image": "/static/images/58/instagram_old.png","text": "(a)"},
+      "correct_answer": {"answer":1, "image": "static/images/58/instagram_old.png","text": "(a)"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/58/insta-line.png", "text": "(b)"},
-        {"answer": 0, "image": "/static/images/58/insta.png", "text": "(c)"},
-        {"answer": 0, "image": "/static/images/58/insta-circ.png", "text": "(d)"}
+        {"answer": 0, "image": "static/images/58/insta-line.png", "text": "(b)"},
+        {"answer": 0, "image": "static/images/58/insta.png", "text": "(c)"},
+        {"answer": 0, "image": "static/images/58/insta-circ.png", "text": "(d)"}
       ]
     },
     {
@@ -306,7 +306,7 @@
       "id": 22,
       "type": "image_text",
       "difficulty": "medium",
-      "image" :"/static/images/22/linkedin.png",
+      "image" :"static/images/22/linkedin.png",
       "question": "Who owns Linkedin?",
       "correct_answer": {"answer":1, "text": "Microsoft"},
       "incorrect_answers": [
@@ -320,11 +320,11 @@
       "type": "image",
       "difficulty": "medium",
       "question": "What is the most popular gaming app ever?",
-      "correct_answer": {"answer":1, "image": "/static/images/9/candy-crush-saga.jpg","text": "Candy Crush Saga"},
+      "correct_answer": {"answer":1, "image": "static/images/9/candy-crush-saga.jpg","text": "Candy Crush Saga"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/9/Angry+Birds_TitlePicture.png", "text": "Angry Birds"},
-        {"answer": 0, "image": "/static/images/9/fruit-ninja-screenshot.jpg", "text": "Fruit Ninja"},
-        {"answer": 0, "image": "/static/images/9/MV5BNGU_.jpg", "text": "Subway Surfers"}
+        {"answer": 0, "image": "static/images/9/Angry+Birds_TitlePicture.png", "text": "Angry Birds"},
+        {"answer": 0, "image": "static/images/9/fruit-ninja-screenshot.jpg", "text": "Fruit Ninja"},
+        {"answer": 0, "image": "static/images/9/MV5BNGU_.jpg", "text": "Subway Surfers"}
       ]
     },
     {
@@ -332,11 +332,11 @@
       "type": "image",
       "difficulty": "medium",
       "question": "What is the most used emoji?",
-      "correct_answer": {"answer":1, "image": "/static/images/1/laugh-emojis.png","text": "Laugh Cry emoji"},
+      "correct_answer": {"answer":1, "image": "static/images/1/laugh-emojis.png","text": "Laugh Cry emoji"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/1/heart-eye-emojis.png", "text": "Heart eye emoji"},
-        {"answer": 0, "image": "/static/images/1/Aubergine-emojis.png", "text": "Aubergine emoji"},
-        {"answer": 0, "image": "/static/images/1/peach-emojis.png", "text": "Peach emoji"}
+        {"answer": 0, "image": "static/images/1/heart-eye-emojis.png", "text": "Heart eye emoji"},
+        {"answer": 0, "image": "static/images/1/Aubergine-emojis.png", "text": "Aubergine emoji"},
+        {"answer": 0, "image": "static/images/1/peach-emojis.png", "text": "Peach emoji"}
       ]
     },
 
@@ -345,11 +345,11 @@
       "type": "image",
       "difficulty": "medium",
       "question": "Who is the most followed person on instagram?",
-      "correct_answer": {"answer":1, "image": "/static/images/3/1469588275-selena-gomez.jpg","text": "Selena Gomez"},
+      "correct_answer": {"answer":1, "image": "static/images/3/1469588275-selena-gomez.jpg","text": "Selena Gomez"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/3/beyonce.jpg", "text": "Beyonce"},
-        {"answer": 0, "image": "/static/images/3/kylie-jenner2.jpg", "text": "Kylie Jenner"},
-        {"answer": 0, "image": "/static/images/3/6bc8e7d0925589c9fd8ce80e4e6789d2.jpg", "text": "Kim Kardashian-West"}
+        {"answer": 0, "image": "static/images/3/beyonce.jpg", "text": "Beyonce"},
+        {"answer": 0, "image": "static/images/3/kylie-jenner2.jpg", "text": "Kylie Jenner"},
+        {"answer": 0, "image": "static/images/3/6bc8e7d0925589c9fd8ce80e4e6789d2.jpg", "text": "Kim Kardashian-West"}
       ]
     },
     {
@@ -369,18 +369,18 @@
       "type": "image",
       "difficulty": "medium",
       "question": "Who is the most followed person on Twitter?",
-      "correct_answer": {"answer":1, "image": "/static/images/15/Taylor-Swift-800x800.png","text": "Taylor Swift"},
+      "correct_answer": {"answer":1, "image": "static/images/15/Taylor-Swift-800x800.png","text": "Taylor Swift"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/15/beyonce.jpg", "text": "Beyonce"},
-        {"answer": 0, "image": "/static/images/15/kylie-jenner2.jpg", "text": "Kylie Jenner"},
-        {"answer": 0, "image": "/static/images/15/1469588275-selena-gomez.jpg", "text": "Selena Gomez"}
+        {"answer": 0, "image": "static/images/15/beyonce.jpg", "text": "Beyonce"},
+        {"answer": 0, "image": "static/images/15/kylie-jenner2.jpg", "text": "Kylie Jenner"},
+        {"answer": 0, "image": "static/images/15/1469588275-selena-gomez.jpg", "text": "Selena Gomez"}
       ]
     },
     {
       "id": 19,
       "type": "image_text",
       "difficulty": "medium",
-      "image" :"/static/images/19/Taylor-Swift-800x800.png",
+      "image" :"static/images/19/Taylor-Swift-800x800.png",
       "question": "Why was Taylor Swift’s comment section on Instagram flooded with the snake emoji?",
       "correct_answer": {"answer":1, "text": "Because of her feud with Kim Kardashian West"},
       "incorrect_answers": [
@@ -394,11 +394,11 @@
       "type": "image",
       "difficulty": "medium",
       "question": "Who is the most streamed artist of 2017?",
-      "correct_answer": {"answer":1, "image": "/static/images/25/ed-sheeran.jpg","text": "Ed Sheeran"},
+      "correct_answer": {"answer":1, "image": "static/images/25/ed-sheeran.jpg","text": "Ed Sheeran"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/25/starving_acoustic.jpg", "text": "Hailee Steinfeld"},
-        {"answer": 0, "image": "/static/images/25/drake.jpg", "text": "Drake"},
-        {"answer": 0, "image": "/static/images/25/Khalid.jpg", "text": "Khalid"}
+        {"answer": 0, "image": "static/images/25/starving_acoustic.jpg", "text": "Hailee Steinfeld"},
+        {"answer": 0, "image": "static/images/25/drake.jpg", "text": "Drake"},
+        {"answer": 0, "image": "static/images/25/Khalid.jpg", "text": "Khalid"}
       ]
     },
     {
@@ -406,11 +406,11 @@
       "type": "image",
       "difficulty": "medium",
       "question": "Who’s tweet made Snapchat’s stock value drop $1.4bn?",
-      "correct_answer": {"answer":1, "image": "/static/images/27/kylie-jenner2.jpg","text": "Kylie Jenner"},
+      "correct_answer": {"answer":1, "image": "static/images/27/kylie-jenner2.jpg","text": "Kylie Jenner"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/27/kim_kardashian-West.jpg", "text": "Kim Kardashian-West"},
-        {"answer": 0, "image": "/static/images/27/kendall_jenner.jpg", "text": "Kendall Jenner"},
-        {"answer": 0, "image": "/static/images/27/kourtney_kardashian.jpg", "text": "Kourtney Kardashian"}
+        {"answer": 0, "image": "static/images/27/kim_kardashian-West.jpg", "text": "Kim Kardashian-West"},
+        {"answer": 0, "image": "static/images/27/kendall_jenner.jpg", "text": "Kendall Jenner"},
+        {"answer": 0, "image": "static/images/27/kourtney_kardashian.jpg", "text": "Kourtney Kardashian"}
       ]
     },
     {
@@ -441,7 +441,7 @@
       "id": 36,
       "type": "image_text",
       "difficulty": "medium",
-      "image" :"/static/images/36/Salt-bae.png",
+      "image" :"static/images/36/Salt-bae.png",
       "question": "Who is this?",
       "correct_answer": {"answer":1, "text": "Salt bae"},
       "incorrect_answers": [
@@ -455,11 +455,11 @@
       "type": "image",
       "difficulty": "medium",
       "question": "Where is the most Instagrammed place in the world?",
-      "correct_answer": {"answer":1, "image": "/static/images/37/new-york.jpg","text": "New York, USA"},
+      "correct_answer": {"answer":1, "image": "static/images/37/new-york.jpg","text": "New York, USA"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/37/los-angeles.jpg", "text": "Los Angeles, USA"},
-        {"answer": 0, "image": "/static/images/37/paris-france.jpg", "text": "Paris, France"},
-        {"answer": 0, "image": "/static/images/37/saint-basil.jpg", "text": "Moscow, Russia"}
+        {"answer": 0, "image": "static/images/37/los-angeles.jpg", "text": "Los Angeles, USA"},
+        {"answer": 0, "image": "static/images/37/paris-france.jpg", "text": "Paris, France"},
+        {"answer": 0, "image": "static/images/37/saint-basil.jpg", "text": "Moscow, Russia"}
       ]
     },
     {
@@ -467,18 +467,18 @@
       "type": "image",
       "difficulty": "medium",
       "question": "What is the most Instagrammed food in the world?",
-      "correct_answer": {"answer":1, "image": "/static/images/38/p_free.jpg","text": "Pizza"},
+      "correct_answer": {"answer":1, "image": "static/images/38/p_free.jpg","text": "Pizza"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/38/bagel.png", "text": "Bagels"},
-        {"answer": 0, "image": "/static/images/38/large_sushi.jpg", "text": "Sushi"},
-        {"answer": 0, "image": "/static/images/38/paleo_superlean.jpg", "text": "Steak"}
+        {"answer": 0, "image": "static/images/38/bagel.png", "text": "Bagels"},
+        {"answer": 0, "image": "static/images/38/large_sushi.jpg", "text": "Sushi"},
+        {"answer": 0, "image": "static/images/38/paleo_superlean.jpg", "text": "Steak"}
       ]
     },
     {
       "id": 39,
       "type": "image_text",
       "difficulty": "medium",
-      "image" :"/static/images/39/flat.jpg",
+      "image" :"static/images/39/flat.jpg",
       "question": "What is this famous cat known as?",
       "correct_answer": {"answer":1, "text": "Grumpy cat"},
       "incorrect_answers": [
@@ -555,11 +555,11 @@
       "type": "image",
       "difficulty": "hard",
       "question": "What is the most played song on spotify?",
-      "correct_answer": {"answer":1, "image": "/static/images/24/psycho.jpg","text": "God’s Plan - Drake"},
+      "correct_answer": {"answer":1, "image": "static/images/24/psycho.jpg","text": "God’s Plan - Drake"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/24/havana.jpg", "text": "Havana - Camilla Cabello"},
-        {"answer": 0, "image": "/static/images/24/new_rules.jpg", "text": "New Rules - Dua Lipa"},
-        {"answer": 0, "image": "/static/images/24/cvrart.jpg", "text": "Psycho - Post Malone Feat. Ty Dolla $ign"}
+        {"answer": 0, "image": "static/images/24/havana.jpg", "text": "Havana - Camilla Cabello"},
+        {"answer": 0, "image": "static/images/24/new_rules.jpg", "text": "New Rules - Dua Lipa"},
+        {"answer": 0, "image": "static/images/24/cvrart.jpg", "text": "Psycho - Post Malone Feat. Ty Dolla $ign"}
       ]
     },
     {
@@ -567,11 +567,11 @@
       "type": "image",
       "difficulty": "hard",
       "question": "What is the most Shazamed song of all time?",
-      "correct_answer": {"answer":1, "image": "/static/images/25/ed-sheeran.jpg","text": "Wake Me Up - Avicii"},
+      "correct_answer": {"answer":1, "image": "static/images/25/ed-sheeran.jpg","text": "Wake Me Up - Avicii"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/25/starving_acoustic.jpg", "text": "Let Her Go - Passenger"},
-        {"answer": 0, "image": "/static/images/25/drake.jpg", "text": "Lean On - Major Lazer & DJ Snake"},
-        {"answer": 0, "image": "/static/images/25/Khalid.jpg", "text": "Somebody That I Used To Know - Gotye"}
+        {"answer": 0, "image": "static/images/25/starving_acoustic.jpg", "text": "Let Her Go - Passenger"},
+        {"answer": 0, "image": "static/images/25/drake.jpg", "text": "Lean On - Major Lazer & DJ Snake"},
+        {"answer": 0, "image": "static/images/25/Khalid.jpg", "text": "Somebody That I Used To Know - Gotye"}
       ]
     },
     {
@@ -604,7 +604,7 @@
       "id": 31,
       "type": "image_text",
       "difficulty": "hard",
-      "image" :"/static/images/31/snapchat.png",
+      "image" :"static/images/31/snapchat.png",
       "question": "How many Snapchats are sent out a day?",
       "correct_answer": {"answer":1, "text": "3.5bn"},
       "incorrect_answers": [
@@ -641,7 +641,7 @@
       "id": 40,
       "type": "image_text",
       "difficulty": "hard",
-      "image" :"/static/images/40/steals-your.jpg",
+      "image" :"static/images/40/steals-your.jpg",
       "question": "What is the name of this meme?",
       "correct_answer": {"answer":1, "text": "Good Guy Greg"},
       "incorrect_answers": [
@@ -667,18 +667,18 @@
       "type": "image",
       "difficulty": "hard",
       "question": "What shoe brand was Daniel wearing in the viral video ‘Damn Daniel’?",
-      "correct_answer": {"answer":1, "image": "/static/images/47/vetement.png","text": "Vans"},
+      "correct_answer": {"answer":1, "image": "static/images/47/vetement.png","text": "Vans"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/47/images.png", "text": "Stan Smith"},
-        {"answer": 0, "image": "/static/images/47/new.png", "text": "New Balance"},
-        {"answer": 0, "image": "/static/images/47/0.jpg", "text": "Converse"}
+        {"answer": 0, "image": "static/images/47/images.png", "text": "Stan Smith"},
+        {"answer": 0, "image": "static/images/47/new.png", "text": "New Balance"},
+        {"answer": 0, "image": "static/images/47/0.jpg", "text": "Converse"}
       ]
     },
     {
       "id": 48,
       "type": "image_text",
       "difficulty": "hard",
-      "image" :"/static/images/48/flat.jpg",
+      "image" :"static/images/48/flat.jpg",
       "question": "What is the meme called?",
       "correct_answer": {"answer":1, "text": "Forever Alone"},
       "incorrect_answers": [
@@ -691,7 +691,7 @@
       "id": 50,
       "type": "image_text",
       "difficulty": "hard",
-      "image" :"/static/images/50/what.jpg",
+      "image" :"static/images/50/what.jpg",
       "question": "What is the name of the man from the ‘Watch Out We Have a Badass Over Here’ meme?",
       "correct_answer": {"answer":1, "text": "Neil deGrasse Tyson"},
       "incorrect_answers": [
@@ -704,7 +704,7 @@
       "id": 51,
       "type": "image_text",
       "difficulty": "hard",
-      "image" :"/static/images/51/aliens.jpg",
+      "image" :"static/images/51/aliens.jpg",
       "question": "What is the caption of this meme?",
       "correct_answer": {"answer":1, "text": "Aliens"},
       "incorrect_answers": [
@@ -717,7 +717,7 @@
       "id": 52,
       "type": "image_text",
       "difficulty": "hard",
-      "image" :"/static/images/52/bitch.jpg",
+      "image" :"static/images/52/bitch.jpg",
       "question": "Who is this?",
       "correct_answer": {"answer":1, "text": "Yao Ming"},
       "incorrect_answers": [
@@ -731,11 +731,11 @@
       "type": "image",
       "difficulty": "hard",
       "question": "Who has the most likes on Facebook?",
-      "correct_answer": {"answer":1, "image": "/static/images/53/christianoronaldo-1.jpg","text": "Cristiano Ronaldo"},
+      "correct_answer": {"answer":1, "image": "static/images/53/christianoronaldo-1.jpg","text": "Cristiano Ronaldo"},
       "incorrect_answers": [
-        {"answer": 0, "image": "/static/images/53/vin-diesel.jpg", "text": "Vin Diesel"},
-        {"answer": 0, "image": "/static/images/53/shakira.png", "text": "Shakira"},
-        {"answer": 0, "image": "/static/images/53/6bc8e.jpg", "text": "Kim Kardashian-West"}
+        {"answer": 0, "image": "static/images/53/vin-diesel.jpg", "text": "Vin Diesel"},
+        {"answer": 0, "image": "static/images/53/shakira.png", "text": "Shakira"},
+        {"answer": 0, "image": "static/images/53/6bc8e.jpg", "text": "Kim Kardashian-West"}
       ]
     },
     {

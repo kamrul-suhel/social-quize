@@ -7,7 +7,6 @@ import Import from "@/components/Import";
 import Score from '@/components/Score';
 import User from '@/components/User';
 import Leaderboard from '@/components/Leaderboard';
-import Gameview from '@/components/Gamevue';
 import Yourdetail from '@/components/Yourdetail';
 import TermsConditions from '@/components/Termsconditions';
 import Yourinitial from '@/components/Yourinitials';
@@ -16,12 +15,6 @@ Vue.use(Router)
 
 export default new Router({
   routes: [
-
-    {
-        path: '/games',
-        name: 'game_view',
-        component: Gameview
-    },
     {
       path: '/',
       name: 'Start',
