@@ -70,9 +70,8 @@
 
             this.$http.get('https://unilad-expo-quiz.firebaseio.com/results.json')
                 .then(function(data) {
-                    let arr = []
+                    let arr = [];
                     for (let x in data.body) {arr.push(data.body[x])}
-//                    this.scores = arr.sort((a, b) => a.correct_answers < b.correct_answers || a.milliseconds < b.milliseconds ? 1 : -1)
                     var sorto = {
                         correct_answers:"desc",milliseconds:"asc"
                     };

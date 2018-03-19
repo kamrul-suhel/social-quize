@@ -64,6 +64,7 @@
         data() {
             return{
                 user:{
+                    'unique_id':'',
                     'full_name': '',
                     'company': '',
                     'email': '',
@@ -105,12 +106,6 @@
                             seconds: this.$store.state.time.seconds
                         },
 
-                        user:{
-                            full_name: this.user.full_name,
-                            email: this.user.email,
-                            company: this.user.company,
-                            terms: this.user.term_conditions
-                        },
 
                         correct_answers: answer.correct_answers,
                         incorrect_answers: answer.incorrect_answers,
@@ -121,17 +116,32 @@
                         initial_name: initial_name
                     };
 
-                    this.user.full_name = '';
-                    this.user.email = '';
-                    this.user.company = '';
-                    this.user.term_conditions = '';
+
+//                    this.user.full_name = '';
+//                    this.user.email = '';
+//                    this.user.company = '';
+//                    this.user.term_conditions = '';
 
                     this.$http.post('https://unilad-expo-quiz.firebaseio.com/results.json', upload)
                         .then(function(data) {
-                            this.$router.push({
-                                name: 'leader_board',
-                                query:{id: this.last_id }
-                            })
+                            // Unique id back from firebase
+                            var unique_id = data.body.name;
+
+                            var user_data = {
+                                full_name: this.user.full_name,
+                                email: this.user.email,
+                                company: this.user.company,
+                                unique_id : unique_id
+                            };
+
+                            this.$http.post('https://unilad-expo-quiz.firebaseio.com/users.json', user_data)
+                                .then(function(){
+                                    this.$router.push({
+                                        name: 'leader_board',
+                                        query:{id: this.last_id }
+                                    });
+                                });
+
                         })
                         .catch(function(data) {
                             console.log("Error: ", data)

@@ -26,7 +26,7 @@
                                 <div class="col text-center">
                                     <img src="img" alt="" class="img-fluid">
                                     <button class="quiz-button" v-on:click="enterPriceDraw()">Enter prize draw</button>
-                                    <button class="quiz-button" v-on:click="leaderboard()">Leaderboard</button>
+                                    <button class="quiz-button" v-on:click="leaderboard()">No thanks</button>
                                 </div>
                             </div>
                         </div>
@@ -81,12 +81,6 @@ export default {
         time: {
             minutes: this.$store.state.time.minutes,
             seconds: this.$store.state.time.seconds
-        },
-
-        user:{
-            full_name: "",
-            email: "",
-            company: ""
         },
         correct_answers: answer.correct_answers,
         incorrect_answers: answer.incorrect_answers,
