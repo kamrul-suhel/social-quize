@@ -567,11 +567,11 @@
       "type": "image",
       "difficulty": "hard",
       "question": "What is the most Shazamed song of all time?",
-      "correct_answer": {"answer":1, "image": "static/images/25/ed-sheeran.jpg","text": "Wake Me Up - Avicii"},
+      "correct_answer": {"answer":1, "image": "static/images/26/avicii.jpg","text": "Wake Me Up - Avicii"},
       "incorrect_answers": [
-        {"answer": 0, "image": "static/images/25/starving_acoustic.jpg", "text": "Let Her Go - Passenger"},
-        {"answer": 0, "image": "static/images/25/drake.jpg", "text": "Lean On - Major Lazer & DJ Snake"},
-        {"answer": 0, "image": "static/images/25/Khalid.jpg", "text": "Somebody That I Used To Know - Gotye"}
+        {"answer": 0, "image": "static/images/26/passenger.jpg", "text": "Let Her Go - Passenger"},
+        {"answer": 0, "image": "static/images/26/lazer.jpeg", "text": "Lean On - Major Lazer & DJ Snake"},
+        {"answer": 0, "image": "static/images/26/gotye.jpg", "text": "Somebody That I Used To Know - Gotye"}
       ]
     },
     {
