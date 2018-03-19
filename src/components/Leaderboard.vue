@@ -64,11 +64,6 @@
 
         },
         created(){
-            console.log('moo');
-            console.log($("#ref_"+this.$route.query.id).offset());
-            //scrollTop: $("#ref_"+this.$route.query.id).offset().top;
-
-
             if(this.$route.query.id){
                 this.selected_id = this.$route.query.id;
             }
@@ -93,8 +88,6 @@
 
         keys = keys || {};
 
-// via
-// https://stackoverflow.com/questions/5223/length-of-javascript-object-ie-associative-array
         var obLen = function(obj) {
             var size = 0, key;
             for (key in obj) {
@@ -104,9 +97,9 @@
             return size;
         };
 
-// avoiding using Object.keys because I guess did it have IE8 issues?
-// else var obIx = function(obj, ix){ return Object.keys(obj)[ix]; } or
-// whatever
+        // avoiding using Object.keys because I guess did it have IE8 issues?
+        // else var obIx = function(obj, ix){ return Object.keys(obj)[ix]; } or
+        // whatever
         var obIx = function(obj, ix) {
             var size = 0, key;
             for (key in obj) {

@@ -82,7 +82,6 @@
             var router = this.$router;
             this.$store.dispatch('getQuestions')
               .then(function(data) {
-                console.log("Successful Request");
                 router.push({
                   name: 'game'
                 })
@@ -98,7 +97,7 @@
           this.$store.commit('setInitializeUserQuestion');
           this.$http.get('https://unilad-expo-quiz.firebaseio.com/results.json')
               .then(function(data) {
-                  let arr = []
+                  let arr = [];
                   for (let x in data.body) {arr.push(data.body[x])}
                   var sorto = {
                       correct_answers:"desc",milliseconds:"asc"

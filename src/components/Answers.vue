@@ -113,8 +113,6 @@
                     this.correct = this.answers.correct_answer.answer;
                     this.gameActive = true;
                     this.selected = '';
-
-                    console.log(this.options);
                 },
 
                 pickOption: function(a){
