@@ -211,13 +211,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
-/***/ "8s4x":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "9rYS":
 /***/ (function(module, exports) {
 
@@ -856,6 +849,13 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
   template: '<App/>',
   components: { App: __WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */] }
 });
+
+/***/ }),
+
+/***/ "Nr86":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1942,17 +1942,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACO
 
 /***/ }),
 
-/***/ "rDVO":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 text-center py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal"}},[_vm._v(_vm._s(score.initial_name || score.user.full_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("understand the"),_c('br'),_vm._v("social generation?")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "sKj1":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2655,15 +2644,26 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 
 /***/ }),
 
+/***/ "zMPo":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 text-center py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name || score.user.full_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("understand the"),_c('br'),_vm._v("social generation?")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "zgV5":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__ = __webpack_require__("hcza");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1d98ecc8_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("rDVO");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_78d026b7_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("zMPo");
 function injectStyle (ssrContext) {
-  __webpack_require__("8s4x")
+  __webpack_require__("Nr86")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -2676,12 +2676,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-1d98ecc8"
+var __vue_scopeId__ = "data-v-78d026b7"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_1d98ecc8_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_78d026b7_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2694,4 +2694,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.3f347668aae63a129bf5.js.map
+//# sourceMappingURL=app.a248b1a6ee5ae7c1e31b.js.map
