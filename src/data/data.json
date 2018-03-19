@@ -128,7 +128,7 @@
     },
     {
       "id": 21,
-      "type": "text",
+      "type": "image_text",
       "difficulty": "easy",
       "image" :"",
       "question": "What was the most shared content on Facebook in 2017?",
@@ -288,9 +288,9 @@
     },
     {
       "id": 60,
-      "type": "text",
+      "type": "image_text",
       "difficulty": "easy",
-      "image" :"",
+      "image" :"static/images/3/kylie-jenner2.jpg",
       "question": "Why did Kylie Jenner take a break from social media?",
       "correct_answer": {"answer":1, "text": "She was pregnant"},
       "incorrect_answers": [

@@ -21,7 +21,7 @@
                                         <tbody>
                                             <tr v-for="(score, index) in scores" v-if="index < 10">
                                                 <td><strong style="font-family:'giorgiosans-bolditalic'">{{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}</strong></td>
-                                                <td style="font-family:'gotham-book'; font-weight:normal;font-style:normal;">{{score.initial_name || score.user.full_name}}</td>
+                                                <td style="font-family:'gotham-book'; font-weight:normal;font-style:normal;">{{score.initial_name.toUpperCase() || score.user.full_name}}</td>
                                                 <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.time.minutes}}:{{score.time.seconds}}</strong></td>
                                                 <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.correct_answers}}/10</strong></td>
                                             </tr>
@@ -82,7 +82,6 @@
             var router = this.$router;
             this.$store.dispatch('getQuestions')
               .then(function(data) {
-                console.log("Successful Request");
                 router.push({
                   name: 'game'
                 })
@@ -98,7 +97,7 @@
           this.$store.commit('setInitializeUserQuestion');
           this.$http.get('https://unilad-expo-quiz.firebaseio.com/results.json')
               .then(function(data) {
-                  let arr = []
+                  let arr = [];
                   for (let x in data.body) {arr.push(data.body[x])}
                   var sorto = {
                       correct_answers:"desc",milliseconds:"asc"

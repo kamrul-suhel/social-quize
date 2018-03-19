@@ -141,6 +141,7 @@ mounted(){
 
 h2{
     font-size:140px;
+    font-family: giorgiosans-bolditalic;
 }
 
 .initial_input{
