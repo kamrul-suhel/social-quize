@@ -28,7 +28,7 @@
       "id": 6,
       "type": "image",
       "difficulty": "easy",
-      "question": "What is the most popular social networking app?",
+      "question": "What is the most popular messenger app?",
       "correct_answer": {"answer":1, "image": "static/images/6/580b57fcd9996e24bc43c543.png","text": "Whatsapp"},
       "incorrect_answers": [
         {"answer": 0, "image": "static/images/6/viber_PNG7.png", "text": "Viber"},
@@ -555,11 +555,11 @@
       "type": "image",
       "difficulty": "hard",
       "question": "What is the most played song on spotify?",
-      "correct_answer": {"answer":1, "image": "static/images/24/psycho.jpg","text": "God’s Plan - Drake"},
+      "correct_answer": {"answer":1, "image": "static/images/24/cvrart.jpg","text": "God’s Plan - Drake"},
       "incorrect_answers": [
         {"answer": 0, "image": "static/images/24/havana.jpg", "text": "Havana - Camilla Cabello"},
         {"answer": 0, "image": "static/images/24/new_rules.jpg", "text": "New Rules - Dua Lipa"},
-        {"answer": 0, "image": "static/images/24/cvrart.jpg", "text": "Psycho - Post Malone Feat. Ty Dolla $ign"}
+        {"answer": 0, "image": "static/images/24/psycho.jpg", "text": "Psycho - Post Malone Feat. Ty Dolla $ign"}
       ]
     },
     {
