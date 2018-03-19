@@ -1,14 +1,21 @@
 webpackJsonp([1],{
 
+/***/ "+RqN":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "/LkL":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Answers_vue__ = __webpack_require__("Mzaf");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0e6fb784_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Answers_vue__ = __webpack_require__("BPjz");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0aabd3f9_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Answers_vue__ = __webpack_require__("tNuP");
 function injectStyle (ssrContext) {
-  __webpack_require__("H3UR")
+  __webpack_require__("jIO1")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -21,12 +28,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-0e6fb784"
+var __vue_scopeId__ = "data-v-0aabd3f9"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Answers_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0e6fb784_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Answers_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0aabd3f9_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Answers_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -51,17 +58,6 @@ var Component = normalizeComponent(
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-50 text-center py-4 mx-auto"},[_vm._m(0),_vm._v(" "),_c('h1',[_vm._v("User detail")]),_vm._v(" "),_c('div',{staticClass:"w-50 mx-auto",attrs:{"id":"btn-container"}},[_c('div',{staticClass:"container"},[_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.user.name),expression:"user.name"}],staticClass:"bits w-100",attrs:{"type":"text","maxlength":"30"},domProps:{"value":(_vm.user.name)},on:{"input":function($event){if($event.target.composing){ return; }_vm.$set(_vm.user, "name", $event.target.value)}}}),_vm._v(" "),_c('button',{staticClass:"action-button animate blue mt-4 mb-2 w-100",on:{"click":function($event){_vm.gotoGame()}}},[_vm._v("Start game")]),_vm._v(" "),_c('router-link',{attrs:{"to":"/"}},[_c('button',{staticClass:"action-button animate green my-2 w-100"},[_vm._v("Back")])])],1)])])])}
 var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"w-75 mx-auto"},[_c('img',{staticClass:"img-fluid",attrs:{"src":__webpack_require__("7Otq"),"alt":""}})])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ "2n4T":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"parent_section"},[_vm._m(0),_vm._v(" "),_c('section',{staticClass:"leader_board_content"},[_c('div',{staticClass:"container"},_vm._l((_vm.scores),function(score,index){return _c('div',{staticClass:"row",class:{'text-info': _vm.selected_id == score.unique_id},attrs:{"data-id":score.unique_id,"id":'ref_'+score.unique_id}},[_c('div',{staticClass:"col-1"},[_c('h4',[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('div',{staticClass:"col-2"},[_c('p',{staticClass:"initials"},[_vm._v(_vm._s(score.initial_name))])]),_vm._v(" "),_c('div',{staticClass:"col-7"},[_c('div',{staticClass:"progress"},[_c('div',{staticClass:"progress-bar",class:{'bg-info': _vm.selected_id == score.unique_id},style:({width: score.correct_answers*10+'%'}),attrs:{"role":"progressbar","aria-valuenow":score.correct_answers,"aria-valuemin":score.correct_answers,"aria-valuemax":"100"}})])]),_vm._v(" "),_c('div',{staticClass:"col-1"},[_c('h4',[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds))]),_vm._v("\n                    "+_vm._s(score.time.offsetX)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"col-1"},[_c('h4',[_vm._v(_vm._s(score.correct_answers)+"/10")])])])}))]),_vm._v(" "),_c('router-link',{attrs:{"to":'/'}},[_c('button',{staticClass:"quiz-button inverted"},[_vm._v("Next")])])],1)}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section_leaderboard"},[_c('div',{staticClass:"top_heading"},[_c('h2',{staticClass:"large"},[_vm._v("Leaderboard")])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -154,9 +150,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Yourinitials_vue__ = __webpack_require__("x6dW");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3d8fd838_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Yourinitials_vue__ = __webpack_require__("OQ3n");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_462585c6_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Yourinitials_vue__ = __webpack_require__("WZX2");
 function injectStyle (ssrContext) {
-  __webpack_require__("x9VF")
+  __webpack_require__("ugBM")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -169,12 +165,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-3d8fd838"
+var __vue_scopeId__ = "data-v-462585c6"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Yourinitials_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3d8fd838_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Yourinitials_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_462585c6_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Yourinitials_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -218,15 +214,10 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACO
 
 /***/ }),
 
-/***/ "BPjz":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "BbuY":
+/***/ (function(module, exports) {
 
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"game_main_container"},[(_vm.answers.type === 'image_text')?_c('div',{staticClass:"game_type_image_text"},[_c('div',{staticClass:"row answer"},[_c('div',{staticClass:"col-8"},_vm._l((_vm.options),function(option,index){return _c('div',{staticClass:"row",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected}},[_c('div',{staticClass:"answer_content image_text",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected},on:{"click":function($event){_vm.pickOption(option)}}},[(_vm.selected && option.answer === 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("qkG4")}})]):_vm._e(),_vm._v(" "),(_vm.selected && option.answer != 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("9rYS")}})]):_vm._e(),_vm._v(" "),_c('span',{staticClass:"index"},[_vm._v(_vm._s(_vm.letters[index])+".")]),_vm._v(" "),_c('p',{staticClass:"answer_title"},[_vm._v(_vm._s(option.text))])])])})),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"row"},[(_vm.answers.image)?_c('div',{staticClass:"right_img"},[_c('img',{staticClass:"img-fluid",attrs:{"src":_vm.answers.image}})]):_vm._e()])])])]):_vm._e(),_vm._v(" "),(_vm.answers.type === 'text')?_c('div',{staticClass:"game_type_text"},[_c('div',{staticClass:"row answer"},_vm._l((_vm.options),function(option,index){return _c('div',{staticClass:"col-6",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected}},[_c('div',{staticClass:"answer_content text_layout",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected},on:{"click":function($event){_vm.pickOption(option)}}},[(_vm.selected && option.answer === 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("qkG4")}})]):_vm._e(),_vm._v(" "),(_vm.selected && option.answer != 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("9rYS")}})]):_vm._e(),_vm._v(" "),_c('span',{staticClass:"index"},[_vm._v(_vm._s(_vm.letters[index])+".")]),_vm._v(" "),_c('p',{staticClass:"answer_title"},[_vm._v(_vm._s(option.text))])])])}))]):_vm._e(),_vm._v(" "),(_vm.answers.type === 'image')?_c('div',{staticClass:"game_type_image"},[_c('div',{staticClass:"row answer"},_vm._l((_vm.options),function(option){return _c('div',{staticClass:"col-3",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected}},[_c('div',{staticClass:"answer_content image_layout",on:{"click":function($event){_vm.pickOption(option)}}},[(_vm.selected && option.answer === 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("qkG4")}})]):_vm._e(),_vm._v(" "),(_vm.selected && option.answer != 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("9rYS")}})]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"img_box",class:{selected: option == _vm.selected,
-                     disabled : option != _vm.selected && _vm.selected}},[_c('img',{staticClass:"img-fluid",attrs:{"src":option.image}})]),_vm._v(" "),_c('div',{staticClass:"text-center"},[_c('p',{staticClass:"answer_title"},[_vm._v(_vm._s(option.text))])])])])}))]):_vm._e(),_vm._v(" "),(!_vm.gameActive)?_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.nextQuestion()}}},[_vm._v("Next")]):_vm._e()])}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -275,15 +266,26 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "FYSy":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"parent_section"},[_vm._m(0),_vm._v(" "),_c('section',{staticClass:"leader_board_content"},[_c('div',{staticClass:"container"},_vm._l((_vm.scores),function(score,index){return _c('div',{staticClass:"row",class:{'text-info': _vm.selected_id == score.unique_id},attrs:{"data-id":score.unique_id,"id":'ref_'+score.unique_id}},[_c('div',{staticClass:"col-1"},[_c('h4',[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('div',{staticClass:"col-2"},[_c('p',{staticClass:"initials"},[_vm._v(_vm._s(score.initial_name))])]),_vm._v(" "),_c('div',{staticClass:"col-7"},[_c('div',{staticClass:"progress"},[_c('div',{staticClass:"progress-bar",class:{'bg-info': _vm.selected_id == score.unique_id},style:({width: score.correct_answers*10+'%'}),attrs:{"role":"progressbar","aria-valuenow":score.correct_answers,"aria-valuemin":score.correct_answers,"aria-valuemax":"100"}})])]),_vm._v(" "),_c('div',{staticClass:"col-1"},[_c('h4',[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds))]),_vm._v("\n                    "+_vm._s(score.time.offsetX)+"\n                ")]),_vm._v(" "),_c('div',{staticClass:"col-1"},[_c('h4',[_vm._v(_vm._s(score.correct_answers)+"/10")])])])}))]),_vm._v(" "),_c('router-link',{attrs:{"to":'/'}},[_c('button',{staticClass:"quiz-button inverted"},[_vm._v("Next")])])],1)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"section_leaderboard"},[_c('div',{staticClass:"top_heading"},[_c('h2',{staticClass:"large"},[_vm._v("Leaderboard")])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "Fvhm":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Leaderboard_vue__ = __webpack_require__("IYJr");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_11c147d6_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Leaderboard_vue__ = __webpack_require__("2n4T");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_b17834c2_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Leaderboard_vue__ = __webpack_require__("FYSy");
 function injectStyle (ssrContext) {
-  __webpack_require__("Ii9L")
+  __webpack_require__("qaU4")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -296,12 +298,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-11c147d6"
+var __vue_scopeId__ = "data-v-b17834c2"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Leaderboard_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_11c147d6_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Leaderboard_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_b17834c2_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Leaderboard_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -421,13 +423,6 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ "H3UR":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "IYJr":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -496,11 +491,6 @@ var Component = normalizeComponent(
     },
     methods: {},
     created() {
-        console.log('moo');
-        console.log($("#ref_" + this.$route.query.id).offset());
-        //scrollTop: $("#ref_"+this.$route.query.id).offset().top;
-
-
         if (this.$route.query.id) {
             this.selected_id = this.$route.query.id;
         }
@@ -525,8 +515,6 @@ Array.prototype.keySort = function (keys) {
 
     keys = keys || {};
 
-    // via
-    // https://stackoverflow.com/questions/5223/length-of-javascript-object-ie-associative-array
     var obLen = function (obj) {
         var size = 0,
             key;
@@ -584,20 +572,6 @@ Array.prototype.keySort = function (keys) {
     });
     return this;
 };
-
-/***/ }),
-
-/***/ "Ii9L":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "JH8n":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -769,8 +743,6 @@ var Component = normalizeComponent(
             this.correct = this.answers.correct_answer.answer;
             this.gameActive = true;
             this.selected = '';
-
-            console.log(this.options);
         },
 
         pickOption: function (a) {
@@ -849,24 +821,6 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
   template: '<App/>',
   components: { App: __WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */] }
 });
-
-/***/ }),
-
-/***/ "Nr86":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "OQ3n":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"w-100 text-center py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('transition',{attrs:{"name":"fade"}},[_c('section',{staticClass:"col-12 initial_heading"},[_c('h2',[_vm._v("What are your initials?")])])]),_vm._v(" "),_c('transition',{attrs:{"name":"fade"}},[_c('section',{staticClass:"col-12"},[(_vm.required_field)?_c('div',{staticClass:"alert"},[_vm._v("Field is required")]):_vm._e(),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.initial_value),expression:"initial_value"}],staticClass:"initial_input",attrs:{"type":"text","maxlength":"3"},domProps:{"value":(_vm.initial_value)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.initial_value=$event.target.value},function($event){_vm.$v.initial_value.$touch()}]}})])]),_vm._v(" "),_c('transition',{attrs:{"name":"fade"}},[(_vm.initial_value)?_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col text-center"},[_c('img',{staticClass:"img-fluid",attrs:{"src":"img","alt":""}}),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.enterPriceDraw()}}},[_vm._v("Enter prize draw")]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.leaderboard()}}},[_vm._v("Leaderboard")])])])]):_vm._e()])],1)])])])}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -1046,6 +1000,17 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "WZX2":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"w-100 text-center py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('transition',{attrs:{"name":"fade"}},[_c('section',{staticClass:"col-12 initial_heading"},[_c('h2',[_vm._v("What are your initials?")])])]),_vm._v(" "),_c('transition',{attrs:{"name":"fade"}},[_c('section',{staticClass:"col-12"},[(_vm.required_field)?_c('div',{staticClass:"alert"},[_vm._v("Field is required")]):_vm._e(),_vm._v(" "),_c('input',{directives:[{name:"model",rawName:"v-model",value:(_vm.initial_value),expression:"initial_value"}],staticClass:"initial_input",attrs:{"type":"text","maxlength":"3"},domProps:{"value":(_vm.initial_value)},on:{"input":[function($event){if($event.target.composing){ return; }_vm.initial_value=$event.target.value},function($event){_vm.$v.initial_value.$touch()}]}})])]),_vm._v(" "),_c('transition',{attrs:{"name":"fade"}},[(_vm.initial_value)?_c('div',{staticClass:"col-12"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col text-center"},[_c('img',{staticClass:"img-fluid",attrs:{"src":"img","alt":""}}),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.enterPriceDraw()}}},[_vm._v("Enter prize draw")]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.leaderboard()}}},[_vm._v("Leaderboard")])])])]):_vm._e()])],1)])])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "X5IN":
 /***/ (function(module, exports) {
 
@@ -1143,6 +1108,17 @@ var Component = normalizeComponent(
     created() {}
 
 });
+
+/***/ }),
+
+/***/ "YORL":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"question animation-heading"},[_c('h2',{staticClass:"large text-center"},[_vm._v(_vm._s(_vm.question))])])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -1302,7 +1278,7 @@ var Component = normalizeComponent(
 /***/ "b3jg":
 /***/ (function(module, exports) {
 
-module.exports = {"easy":[{"id":2,"type":"image","difficulty":"easy","question":"Who has the most liked instagram photo at the moment?","correct_answer":{"answer":1,"image":"static/images/3/kylie-jenner2.jpg","text":"Kylie Jenner"},"incorrect_answers":[{"answer":0,"image":"static/images/2/image.jpeg","text":"Kendall Jenner"},{"answer":0,"image":"static/images/2/beyonce-pregnant-bump-pic-ftr.jpg","text":"Beyonce"},{"answer":0,"image":"static/images/2/selena-gomez-coca-cola-ads-ftr.jpg","text":"Selena Gomez"}]},{"id":4,"type":"image","difficulty":"easy","question":"What is the world's most popular social network?","correct_answer":{"answer":1,"image":"static/images/4/FB-f-Logo__blue_1024.png","text":"Facebook"},"incorrect_answers":[{"answer":0,"image":"static/images/4/580b57fcd9996e24bc43c543-copy.png","text":"Whatsapp"},{"answer":0,"image":"static/images/4/Facebook_Messenger_logo.png","text":"Facebook messenger"},{"answer":0,"image":"static/images/4/Twitter_logo_bird_transparent_png.png","text":"Twitter"}]},{"id":6,"type":"image","difficulty":"easy","question":"What is the most popular social networking app?","correct_answer":{"answer":1,"image":"static/images/6/580b57fcd9996e24bc43c543.png","text":"Whatsapp"},"incorrect_answers":[{"answer":0,"image":"static/images/6/viber_PNG7.png","text":"Viber"},{"answer":0,"image":"static/images/6/Facebook_Messenger_logo.svg-copy.png","text":"Facebook messenger"},{"answer":0,"image":"static/images/6/1200x630bb.png","text":"QQ Chat"}]},{"id":10,"type":"text","difficulty":"easy","image":"","question":"Why is someone called a “snake”?","correct_answer":{"answer":1,"text":"When they backstab someone"},"incorrect_answers":[{"answer":0,"text":"When they slither in the DMs"},{"answer":0,"text":"When they’re sneaky"},{"answer":0,"text":"When they have a lisp"}]},{"id":11,"type":"text","difficulty":"easy","image":"","question":"This party is ‘Lit’ means?","correct_answer":{"answer":1,"text":"This party is fun"},"incorrect_answers":[{"answer":0,"text":"Literally bad"},{"answer":0,"text":"Everyone is on drugs"},{"answer":0,"text":"This party is fuming (aka bad)"}]},{"id":12,"type":"text","difficulty":"easy","image":"","question":"What is the most popular hashtag on Instagram?","correct_answer":{"answer":1,"text":"#love"},"incorrect_answers":[{"answer":0,"text":"#tbt"},{"answer":0,"text":"#happy"},{"answer":0,"text":"#summer"}]},{"id":13,"type":"text","difficulty":"easy","image":"","question":"Most retweeted tweet ever?","correct_answer":{"answer":1,"text":"“Help me please a man needs his nuggs” - Carter Wilkerson"},"incorrect_answers":[{"answer":0,"text":"“If only Bradleys arm was longer. Best photo ever. #oscars” - Ellen DeGeneres"},{"answer":0,"text":"“Always in my heart @Harry_Styles. Yours sincerely, Louis” - Louis Tomlinson"},{"answer":0,"text":"“No one is born hating another person because of the color of his skin or his background or his religion…” - Barack Obama"}]},{"id":14,"type":"image_text","difficulty":"easy","image":"static/images/14/fb.png","question":"What year was Facebook founded?","correct_answer":{"answer":1,"text":"2004"},"incorrect_answers":[{"answer":0,"text":"2002"},{"answer":0,"text":"2006"},{"answer":0,"text":"2008"}]},{"id":16,"type":"image","difficulty":"easy","question":"What is the most viewed video on youtube?","correct_answer":{"answer":1,"image":"static/images/16/maxresdefault-2.jpg","text":"“Despacito” - Luis Fonsi"},"incorrect_answers":[{"answer":0,"image":"static/images/16/maxresdefault.jpg","text":"“Gangnam Style” - Psy"},{"answer":0,"image":"static/images/16/maxresdefault-1.jpg","text":"“Donald Trump Singing Despacito”"},{"answer":0,"image":"static/images/16/see_you_again.jpg","text":"“See You Again” - Wiz Khalifa"}]},{"id":20,"type":"text","difficulty":"easy","image":"","question":"What does the ‘e’ in eSports stand for?","correct_answer":{"answer":1,"text":"Electronic"},"incorrect_answers":[{"answer":0,"text":"Entertainment"},{"answer":0,"text":"Ethernet"},{"answer":0,"text":"Electric"}]},{"id":21,"type":"text","difficulty":"easy","image":"","question":"What was the most shared content on Facebook in 2017?","correct_answer":{"answer":1,"text":"“Despacito” - Luis Fonsi"},"incorrect_answers":[{"answer":0,"text":"“Shape of You” - Ed Sheeran"},{"answer":0,"text":"“Linkin Park Singer Commits Suicide by Hanging”"},{"answer":0,"text":"“Quiz: Only 1 in 50 people can identify these 16 grammar mistakes. Can you?”"}]},{"id":18,"type":"text","difficulty":"easy","question":"What is the name of the Gorilla that was killed and later became an internet star?","correct_answer":{"answer":1,"text":"Harambe"},"incorrect_answers":[{"answer":0,"text":"Chichwa"},{"answer":0,"text":"Cecil"},{"answer":0,"text":"Bananas"}]},{"id":23,"type":"image","difficulty":"easy","question":"Which one of these was not a real online challenge?","correct_answer":{"answer":1,"image":"static/images/23/khloe-kardashian.jpg","text":"The Khloe challenge"},"incorrect_answers":[{"answer":0,"image":"static/images/23/cinnamon.jpg","text":"The cinnamon challenge"},{"answer":0,"image":"static/images/23/image.jpeg","text":"The Tide pod challenge"},{"answer":0,"image":"static/images/23/flat.jpg","text":"The Kylie Jenner challenge"}]},{"id":30,"type":"image","difficulty":"easy","question":"Which one came out first?","correct_answer":{"answer":1,"image":"static/images/30/icq.png","text":"ICQ"},"incorrect_answers":[{"answer":0,"image":"static/images/30/myspace.jpg","text":"MySpace"},{"answer":0,"image":"static/images/30/msn.jpg","text":"Msn Messenger"},{"answer":0,"image":"static/images/30/bebo.jpg","text":"Bebo"}]},{"id":42,"type":"image_text","difficulty":"easy","image":"static/images/42/double-rainbow.jpg","question":"How many rainbows did Paul Vasquez see at Yosemite park?","correct_answer":{"answer":1,"text":"Two"},"incorrect_answers":[{"answer":0,"text":"One and a half"},{"answer":0,"text":"Three"},{"answer":0,"text":"Four"}]},{"id":43,"type":"image_text","difficulty":"easy","image":"static/images/43/charlie.png","question":"What is the name of the boy that bit his brother in 2007?","correct_answer":{"answer":1,"text":"Charlie"},"incorrect_answers":[{"answer":0,"text":"George"},{"answer":0,"text":"Harry"},{"answer":0,"text":"Richard"}]},{"id":44,"type":"text","difficulty":"easy","question":"What does ‘ikr’ stand for?","correct_answer":{"answer":1,"text":"I Know Right"},"incorrect_answers":[{"answer":0,"text":"I’m Knackered Rn (Right now)"},{"answer":0,"text":"I Know Klingon"},{"answer":0,"text":"Is Ketchup Red"}]},{"id":49,"type":"image_text","difficulty":"easy","image":"static/images/49/flat.jpg","question":"What is the meme called?","correct_answer":{"answer":1,"text":"Troll Face"},"incorrect_answers":[{"answer":0,"text":"You’re Lying Face"},{"answer":0,"text":"Smirk Face"},{"answer":0,"text":"Sneaky Face"}]},{"id":54,"type":"image","difficulty":"easy","question":"Which social network has the most users?","correct_answer":{"answer":1,"image":"static/images/54/fb.png","text":"Facebook"},"incorrect_answers":[{"answer":0,"image":"static/images/54/insta.png","text":"Instagram"},{"answer":0,"image":"static/images/54/twitter.png","text":"Twitter"},{"answer":0,"image":"static/images/54/vero.jpg","text":"Vero"}]},{"id":55,"type":"text","difficulty":"easy","question":"What year was Instagram created?","correct_answer":{"answer":1,"text":"2010"},"incorrect_answers":[{"answer":0,"text":"2004"},{"answer":0,"text":"2006"},{"answer":0,"text":"2008"}]},{"id":56,"type":"image","difficulty":"easy","question":"Which one of these political figures has the most followers on Twitter?","correct_answer":{"answer":1,"image":"static/images/56/obama.jpg","text":"Barack Obama"},"incorrect_answers":[{"answer":0,"image":"static/images/56/donald-trump.png","text":"Donald Trump"},{"answer":0,"image":"static/images/56/flat.jpg","text":"Theresa May"},{"answer":0,"image":"static/images/56/hillary_clinton.png","text":"Hillary Clinton"}]},{"id":57,"type":"image","difficulty":"easy","question":"Who founded Facebook?","correct_answer":{"answer":1,"image":"static/images/57/flat.jpg","text":"Mark Zuckerberg"},"incorrect_answers":[{"answer":0,"image":"static/images/57/bill-gates.jpg","text":"Bill Gates"},{"answer":0,"image":"static/images/57/topic_steve.jpg","text":"Steve Jobs"},{"answer":0,"image":"static/images/57/bezos_jeff.jpg","text":"Jeff Bezos"}]},{"id":58,"type":"image","difficulty":"easy","question":"Which one is Instagram’s original logo?","correct_answer":{"answer":1,"image":"static/images/58/instagram_old.png","text":"(a)"},"incorrect_answers":[{"answer":0,"image":"static/images/58/insta-line.png","text":"(b)"},{"answer":0,"image":"static/images/58/insta.png","text":"(c)"},{"answer":0,"image":"static/images/58/insta-circ.png","text":"(d)"}]},{"id":60,"type":"text","difficulty":"easy","image":"","question":"Why did Kylie Jenner take a break from social media?","correct_answer":{"answer":1,"text":"She was pregnant"},"incorrect_answers":[{"answer":0,"text":"She was on holiday"},{"answer":0,"text":"Bad photos were leaked"},{"answer":0,"text":"She didn’t like the fame"}]}],"medium":[{"id":22,"type":"image_text","difficulty":"medium","image":"static/images/22/linkedin.png","question":"Who owns Linkedin?","correct_answer":{"answer":1,"text":"Microsoft"},"incorrect_answers":[{"answer":0,"text":"Apple"},{"answer":0,"text":"Facebook"},{"answer":0,"text":"Google"}]},{"id":9,"type":"image","difficulty":"medium","question":"What is the most popular gaming app ever?","correct_answer":{"answer":1,"image":"static/images/9/candy-crush-saga.jpg","text":"Candy Crush Saga"},"incorrect_answers":[{"answer":0,"image":"static/images/9/Angry+Birds_TitlePicture.png","text":"Angry Birds"},{"answer":0,"image":"static/images/9/fruit-ninja-screenshot.jpg","text":"Fruit Ninja"},{"answer":0,"image":"static/images/9/MV5BNGU_.jpg","text":"Subway Surfers"}]},{"id":1,"type":"image","difficulty":"medium","question":"What is the most used emoji?","correct_answer":{"answer":1,"image":"static/images/1/laugh-emojis.png","text":"Laugh Cry emoji"},"incorrect_answers":[{"answer":0,"image":"static/images/1/heart-eye-emojis.png","text":"Heart eye emoji"},{"answer":0,"image":"static/images/1/Aubergine-emojis.png","text":"Aubergine emoji"},{"answer":0,"image":"static/images/1/peach-emojis.png","text":"Peach emoji"}]},{"id":3,"type":"image","difficulty":"medium","question":"Who is the most followed person on instagram?","correct_answer":{"answer":1,"image":"static/images/3/1469588275-selena-gomez.jpg","text":"Selena Gomez"},"incorrect_answers":[{"answer":0,"image":"static/images/3/beyonce.jpg","text":"Beyonce"},{"answer":0,"image":"static/images/3/kylie-jenner2.jpg","text":"Kylie Jenner"},{"answer":0,"image":"static/images/3/6bc8e7d0925589c9fd8ce80e4e6789d2.jpg","text":"Kim Kardashian-West"}]},{"id":5,"type":"text","difficulty":"medium","question":"What does “Ghosting” mean?","correct_answer":{"answer":1,"text":"When one person in a relationship suddenly disappears and stops responding"},"incorrect_answers":[{"answer":0,"text":"When you ignore someone by accident"},{"answer":0,"text":"When someone believes they are in a relationship and the other doesn't"},{"answer":0,"text":"When a couple are both cheating"}]},{"id":15,"type":"image","difficulty":"medium","question":"Who is the most followed person on Twitter?","correct_answer":{"answer":1,"image":"static/images/15/Taylor-Swift-800x800.png","text":"Taylor Swift"},"incorrect_answers":[{"answer":0,"image":"static/images/15/beyonce.jpg","text":"Beyonce"},{"answer":0,"image":"static/images/15/kylie-jenner2.jpg","text":"Kylie Jenner"},{"answer":0,"image":"static/images/15/1469588275-selena-gomez.jpg","text":"Selena Gomez"}]},{"id":19,"type":"image_text","difficulty":"medium","image":"static/images/19/Taylor-Swift-800x800.png","question":"Why was Taylor Swift’s comment section on Instagram flooded with the snake emoji?","correct_answer":{"answer":1,"text":"Because of her feud with Kim Kardashian West"},"incorrect_answers":[{"answer":0,"text":"For her new album"},{"answer":0,"text":"For her new song"},{"answer":0,"text":"Because she tweeted she bought a snake"}]},{"id":25,"type":"image","difficulty":"medium","question":"Who is the most streamed artist of 2017?","correct_answer":{"answer":1,"image":"static/images/25/ed-sheeran.jpg","text":"Ed Sheeran"},"incorrect_answers":[{"answer":0,"image":"static/images/25/starving_acoustic.jpg","text":"Hailee Steinfeld"},{"answer":0,"image":"static/images/25/drake.jpg","text":"Drake"},{"answer":0,"image":"static/images/25/Khalid.jpg","text":"Khalid"}]},{"id":27,"type":"image","difficulty":"medium","question":"Who’s tweet made Snapchat’s stock value drop $1.4bn?","correct_answer":{"answer":1,"image":"static/images/27/kylie-jenner2.jpg","text":"Kylie Jenner"},"incorrect_answers":[{"answer":0,"image":"static/images/27/kim_kardashian-West.jpg","text":"Kim Kardashian-West"},{"answer":0,"image":"static/images/27/kendall_jenner.jpg","text":"Kendall Jenner"},{"answer":0,"image":"static/images/27/kourtney_kardashian.jpg","text":"Kourtney Kardashian"}]},{"id":32,"type":"text","difficulty":"medium","question":"What does ‘ngl’ stand for?","correct_answer":{"answer":1,"text":"Not Gonna Lie"},"incorrect_answers":[{"answer":0,"text":"Never Gonna Like (...)"},{"answer":0,"text":"Never Gonna Love"},{"answer":0,"text":"Not Goin ‘lone"}]},{"id":35,"type":"text","difficulty":"medium","question":"How is the acronym ‘lol’ most commonly used for texting?","correct_answer":{"answer":1,"text":"Laugh Out Loud"},"incorrect_answers":[{"answer":0,"text":"Lots Of Love"},{"answer":0,"text":"Lots Of Laughter"},{"answer":0,"text":"Little Old Lady"}]},{"id":36,"type":"image_text","difficulty":"medium","image":"static/images/36/Salt-bae.png","question":"Who is this?","correct_answer":{"answer":1,"text":"Salt bae"},"incorrect_answers":[{"answer":0,"text":"Salt babe"},{"answer":0,"text":"Salt baeb"},{"answer":0,"text":"Salt baby"}]},{"id":37,"type":"image","difficulty":"medium","question":"Where is the most Instagrammed place in the world?","correct_answer":{"answer":1,"image":"static/images/37/new-york.jpg","text":"New York, USA"},"incorrect_answers":[{"answer":0,"image":"static/images/37/los-angeles.jpg","text":"Los Angeles, USA"},{"answer":0,"image":"static/images/37/paris-france.jpg","text":"Paris, France"},{"answer":0,"image":"static/images/37/saint-basil.jpg","text":"Moscow, Russia"}]},{"id":38,"type":"image","difficulty":"medium","question":"What is the most Instagrammed food in the world?","correct_answer":{"answer":1,"image":"static/images/38/p_free.jpg","text":"Pizza"},"incorrect_answers":[{"answer":0,"image":"static/images/38/bagel.png","text":"Bagels"},{"answer":0,"image":"static/images/38/large_sushi.jpg","text":"Sushi"},{"answer":0,"image":"static/images/38/paleo_superlean.jpg","text":"Steak"}]},{"id":39,"type":"image_text","difficulty":"medium","image":"static/images/39/flat.jpg","question":"What is this famous cat known as?","correct_answer":{"answer":1,"text":"Grumpy cat"},"incorrect_answers":[{"answer":0,"text":"Angry cat"},{"answer":0,"text":"Crabby cat"},{"answer":0,"text":"Cranky cat"}]},{"id":41,"type":"text","difficulty":"medium","question":"What is the animal in the viral song “What does the _____ say?","correct_answer":{"answer":1,"text":"Fox"},"incorrect_answers":[{"answer":0,"text":"Hippo"},{"answer":0,"text":"Seal"},{"answer":0,"text":"Giraffe"}]},{"id":46,"type":"text","difficulty":"medium","question":"What does ‘CSB’ stand for?","correct_answer":{"answer":1,"text":"Cool Story Bro"},"incorrect_answers":[{"answer":0,"text":"Could Someone Bring (...)"},{"answer":0,"text":"Cruel Sassy B*tch"},{"answer":0,"text":"Could She Bang"}]}],"hard":[{"id":7,"type":"text","difficulty":"hard","question":"What does L.A.T mean?","correct_answer":{"answer":1,"text":"Living Apart Together"},"incorrect_answers":[{"answer":0,"text":"Literally Always Talking"},{"answer":0,"text":"Lizards And Tortoises"},{"answer":0,"text":"A term Latino couples use"}]},{"id":8,"type":"text","difficulty":"hard","question":"What does “Shipping” mean?","correct_answer":{"answer":1,"text":"Really wanting two people to have something together"},"incorrect_answers":[{"answer":0,"text":"Ordering someone online and waiting for it to be shipped"},{"answer":0,"text":"PG version of “Shitting”"},{"answer":0,"text":"When you're in a relationship and it’s going really well"}]},{"id":17,"type":"text","difficulty":"hard","image":"","question":"How many tweets are tweeted approximately per day on twitter?","correct_answer":{"answer":1,"text":"500 million"},"incorrect_answers":[{"answer":0,"text":"200 million"},{"answer":0,"text":"300 million"},{"answer":0,"text":"400 million"}]},{"id":24,"type":"image","difficulty":"hard","question":"What is the most played song on spotify?","correct_answer":{"answer":1,"image":"static/images/24/psycho.jpg","text":"God’s Plan - Drake"},"incorrect_answers":[{"answer":0,"image":"static/images/24/havana.jpg","text":"Havana - Camilla Cabello"},{"answer":0,"image":"static/images/24/new_rules.jpg","text":"New Rules - Dua Lipa"},{"answer":0,"image":"static/images/24/cvrart.jpg","text":"Psycho - Post Malone Feat. Ty Dolla $ign"}]},{"id":26,"type":"image","difficulty":"hard","question":"What is the most Shazamed song of all time?","correct_answer":{"answer":1,"image":"static/images/26/avicii.jpg","text":"Wake Me Up - Avicii"},"incorrect_answers":[{"answer":0,"image":"static/images/26/passenger.jpg","text":"Let Her Go - Passenger"},{"answer":0,"image":"static/images/26/lazer.jpeg","text":"Lean On - Major Lazer & DJ Snake"},{"answer":0,"image":"static/images/26/gotye.jpg","text":"Somebody That I Used To Know - Gotye"}]},{"id":28,"type":"text","difficulty":"hard","image":"","question":"How many times has Tinder been downloaded?","correct_answer":{"answer":1,"text":"100 million"},"incorrect_answers":[{"answer":0,"text":"50 million"},{"answer":0,"text":"150 million"},{"answer":0,"text":"200 million"}]},{"id":29,"type":"text","difficulty":"hard","image":"","question":"What is the number of daily swipes on Tinder?","correct_answer":{"answer":1,"text":"1.6bn"},"incorrect_answers":[{"answer":0,"text":"1.2bn"},{"answer":0,"text":"1.4bn"},{"answer":0,"text":"1.8bn"}]},{"id":31,"type":"image_text","difficulty":"hard","image":"static/images/31/snapchat.png","question":"How many Snapchats are sent out a day?","correct_answer":{"answer":1,"text":"3.5bn"},"incorrect_answers":[{"answer":0,"text":"1.5bn"},{"answer":0,"text":"2.5bn"},{"answer":0,"text":"4.5bn"}]},{"id":33,"type":"text","difficulty":"hard","question":"What does ‘smh’ stand for?","correct_answer":{"answer":1,"text":"Shake My Head"},"incorrect_answers":[{"answer":0,"text":"Stop Messaging Him"},{"answer":0,"text":"Stop Messaging Her"},{"answer":0,"text":"Somehow"}]},{"id":34,"type":"text","difficulty":"hard","question":"What does ‘tl;dr’ stand for?","correct_answer":{"answer":1,"text":"Too long; didn't read"},"incorrect_answers":[{"answer":0,"text":"Too late; didn't realize"},{"answer":0,"text":"Too late; don’t rate"},{"answer":0,"text":"Too little; don't recommend"}]},{"id":40,"type":"image_text","difficulty":"hard","image":"static/images/40/steals-your.jpg","question":"What is the name of this meme?","correct_answer":{"answer":1,"text":"Good Guy Greg"},"incorrect_answers":[{"answer":0,"text":"Good Guy Grayson"},{"answer":0,"text":"Good Guy George"},{"answer":0,"text":"Good Guy Gavin"}]},{"id":45,"type":"text","difficulty":"hard","question":"What does ‘Bae’ stand for?","correct_answer":{"answer":1,"text":"Before Anyone Else"},"incorrect_answers":[{"answer":0,"text":"Before Anything Else"},{"answer":0,"text":"Danish word for poop"},{"answer":0,"text":"Shortcut for babe"}]},{"id":47,"type":"image","difficulty":"hard","question":"What shoe brand was Daniel wearing in the viral video ‘Damn Daniel’?","correct_answer":{"answer":1,"image":"static/images/47/vetement.png","text":"Vans"},"incorrect_answers":[{"answer":0,"image":"static/images/47/images.png","text":"Stan Smith"},{"answer":0,"image":"static/images/47/new.png","text":"New Balance"},{"answer":0,"image":"static/images/47/0.jpg","text":"Converse"}]},{"id":48,"type":"image_text","difficulty":"hard","image":"static/images/48/flat.jpg","question":"What is the meme called?","correct_answer":{"answer":1,"text":"Forever Alone"},"incorrect_answers":[{"answer":0,"text":"Always Alone"},{"answer":0,"text":"Endlessly Alone"},{"answer":0,"text":"Permanently Alone"}]},{"id":50,"type":"image_text","difficulty":"hard","image":"static/images/50/what.jpg","question":"What is the name of the man from the ‘Watch Out We Have a Badass Over Here’ meme?","correct_answer":{"answer":1,"text":"Neil deGrasse Tyson"},"incorrect_answers":[{"answer":0,"text":"Bill Nye"},{"answer":0,"text":"Carl Sagen"},{"answer":0,"text":"Michio Kaku"}]},{"id":51,"type":"image_text","difficulty":"hard","image":"static/images/51/aliens.jpg","question":"What is the caption of this meme?","correct_answer":{"answer":1,"text":"Aliens"},"incorrect_answers":[{"answer":0,"text":"Extraterrestrials "},{"answer":0,"text":"Groundbreaking"},{"answer":0,"text":"Huge"}]},{"id":52,"type":"image_text","difficulty":"hard","image":"static/images/52/bitch.jpg","question":"Who is this?","correct_answer":{"answer":1,"text":"Yao Ming"},"incorrect_answers":[{"answer":0,"text":"Obama"},{"answer":0,"text":"Ye Li"},{"answer":0,"text":"Kim Jong- Un"}]},{"id":53,"type":"image","difficulty":"hard","question":"Who has the most likes on Facebook?","correct_answer":{"answer":1,"image":"static/images/53/christianoronaldo-1.jpg","text":"Cristiano Ronaldo"},"incorrect_answers":[{"answer":0,"image":"static/images/53/vin-diesel.jpg","text":"Vin Diesel"},{"answer":0,"image":"static/images/53/shakira.png","text":"Shakira"},{"answer":0,"image":"static/images/53/6bc8e.jpg","text":"Kim Kardashian-West"}]},{"id":59,"type":"text","difficulty":"hard","image":"","question":"Why did Justin Bieber delete his Instagram?","correct_answer":{"answer":1,"text":"His fans were jealous of his rumoured girlfriend Sofia Richie"},"incorrect_answers":[{"answer":0,"text":"He wanted a break from social media"},{"answer":0,"text":"He was embarrassed how many followers he lost after Instagram removed fake followers"},{"answer":0,"text":"He wanted to start a fresh new Instagram feed"}]}]}
+module.exports = {"easy":[{"id":2,"type":"image","difficulty":"easy","question":"Who has the most liked instagram photo at the moment?","correct_answer":{"answer":1,"image":"static/images/3/kylie-jenner2.jpg","text":"Kylie Jenner"},"incorrect_answers":[{"answer":0,"image":"static/images/2/image.jpeg","text":"Kendall Jenner"},{"answer":0,"image":"static/images/2/beyonce-pregnant-bump-pic-ftr.jpg","text":"Beyonce"},{"answer":0,"image":"static/images/2/selena-gomez-coca-cola-ads-ftr.jpg","text":"Selena Gomez"}]},{"id":4,"type":"image","difficulty":"easy","question":"What is the world's most popular social network?","correct_answer":{"answer":1,"image":"static/images/4/FB-f-Logo__blue_1024.png","text":"Facebook"},"incorrect_answers":[{"answer":0,"image":"static/images/4/580b57fcd9996e24bc43c543-copy.png","text":"Whatsapp"},{"answer":0,"image":"static/images/4/Facebook_Messenger_logo.png","text":"Facebook messenger"},{"answer":0,"image":"static/images/4/Twitter_logo_bird_transparent_png.png","text":"Twitter"}]},{"id":6,"type":"image","difficulty":"easy","question":"What is the most popular social networking app?","correct_answer":{"answer":1,"image":"static/images/6/580b57fcd9996e24bc43c543.png","text":"Whatsapp"},"incorrect_answers":[{"answer":0,"image":"static/images/6/viber_PNG7.png","text":"Viber"},{"answer":0,"image":"static/images/6/Facebook_Messenger_logo.svg-copy.png","text":"Facebook messenger"},{"answer":0,"image":"static/images/6/1200x630bb.png","text":"QQ Chat"}]},{"id":10,"type":"text","difficulty":"easy","image":"","question":"Why is someone called a “snake”?","correct_answer":{"answer":1,"text":"When they backstab someone"},"incorrect_answers":[{"answer":0,"text":"When they slither in the DMs"},{"answer":0,"text":"When they’re sneaky"},{"answer":0,"text":"When they have a lisp"}]},{"id":11,"type":"text","difficulty":"easy","image":"","question":"This party is ‘Lit’ means?","correct_answer":{"answer":1,"text":"This party is fun"},"incorrect_answers":[{"answer":0,"text":"Literally bad"},{"answer":0,"text":"Everyone is on drugs"},{"answer":0,"text":"This party is fuming (aka bad)"}]},{"id":12,"type":"text","difficulty":"easy","image":"","question":"What is the most popular hashtag on Instagram?","correct_answer":{"answer":1,"text":"#love"},"incorrect_answers":[{"answer":0,"text":"#tbt"},{"answer":0,"text":"#happy"},{"answer":0,"text":"#summer"}]},{"id":13,"type":"text","difficulty":"easy","image":"","question":"Most retweeted tweet ever?","correct_answer":{"answer":1,"text":"“Help me please a man needs his nuggs” - Carter Wilkerson"},"incorrect_answers":[{"answer":0,"text":"“If only Bradleys arm was longer. Best photo ever. #oscars” - Ellen DeGeneres"},{"answer":0,"text":"“Always in my heart @Harry_Styles. Yours sincerely, Louis” - Louis Tomlinson"},{"answer":0,"text":"“No one is born hating another person because of the color of his skin or his background or his religion…” - Barack Obama"}]},{"id":14,"type":"image_text","difficulty":"easy","image":"static/images/14/fb.png","question":"What year was Facebook founded?","correct_answer":{"answer":1,"text":"2004"},"incorrect_answers":[{"answer":0,"text":"2002"},{"answer":0,"text":"2006"},{"answer":0,"text":"2008"}]},{"id":16,"type":"image","difficulty":"easy","question":"What is the most viewed video on youtube?","correct_answer":{"answer":1,"image":"static/images/16/maxresdefault-2.jpg","text":"“Despacito” - Luis Fonsi"},"incorrect_answers":[{"answer":0,"image":"static/images/16/maxresdefault.jpg","text":"“Gangnam Style” - Psy"},{"answer":0,"image":"static/images/16/maxresdefault-1.jpg","text":"“Donald Trump Singing Despacito”"},{"answer":0,"image":"static/images/16/see_you_again.jpg","text":"“See You Again” - Wiz Khalifa"}]},{"id":20,"type":"text","difficulty":"easy","image":"","question":"What does the ‘e’ in eSports stand for?","correct_answer":{"answer":1,"text":"Electronic"},"incorrect_answers":[{"answer":0,"text":"Entertainment"},{"answer":0,"text":"Ethernet"},{"answer":0,"text":"Electric"}]},{"id":21,"type":"image_text","difficulty":"easy","image":"","question":"What was the most shared content on Facebook in 2017?","correct_answer":{"answer":1,"text":"“Despacito” - Luis Fonsi"},"incorrect_answers":[{"answer":0,"text":"“Shape of You” - Ed Sheeran"},{"answer":0,"text":"“Linkin Park Singer Commits Suicide by Hanging”"},{"answer":0,"text":"“Quiz: Only 1 in 50 people can identify these 16 grammar mistakes. Can you?”"}]},{"id":18,"type":"text","difficulty":"easy","question":"What is the name of the Gorilla that was killed and later became an internet star?","correct_answer":{"answer":1,"text":"Harambe"},"incorrect_answers":[{"answer":0,"text":"Chichwa"},{"answer":0,"text":"Cecil"},{"answer":0,"text":"Bananas"}]},{"id":23,"type":"image","difficulty":"easy","question":"Which one of these was not a real online challenge?","correct_answer":{"answer":1,"image":"static/images/23/khloe-kardashian.jpg","text":"The Khloe challenge"},"incorrect_answers":[{"answer":0,"image":"static/images/23/cinnamon.jpg","text":"The cinnamon challenge"},{"answer":0,"image":"static/images/23/image.jpeg","text":"The Tide pod challenge"},{"answer":0,"image":"static/images/23/flat.jpg","text":"The Kylie Jenner challenge"}]},{"id":30,"type":"image","difficulty":"easy","question":"Which one came out first?","correct_answer":{"answer":1,"image":"static/images/30/icq.png","text":"ICQ"},"incorrect_answers":[{"answer":0,"image":"static/images/30/myspace.jpg","text":"MySpace"},{"answer":0,"image":"static/images/30/msn.jpg","text":"Msn Messenger"},{"answer":0,"image":"static/images/30/bebo.jpg","text":"Bebo"}]},{"id":42,"type":"image_text","difficulty":"easy","image":"static/images/42/double-rainbow.jpg","question":"How many rainbows did Paul Vasquez see at Yosemite park?","correct_answer":{"answer":1,"text":"Two"},"incorrect_answers":[{"answer":0,"text":"One and a half"},{"answer":0,"text":"Three"},{"answer":0,"text":"Four"}]},{"id":43,"type":"image_text","difficulty":"easy","image":"static/images/43/charlie.png","question":"What is the name of the boy that bit his brother in 2007?","correct_answer":{"answer":1,"text":"Charlie"},"incorrect_answers":[{"answer":0,"text":"George"},{"answer":0,"text":"Harry"},{"answer":0,"text":"Richard"}]},{"id":44,"type":"text","difficulty":"easy","question":"What does ‘ikr’ stand for?","correct_answer":{"answer":1,"text":"I Know Right"},"incorrect_answers":[{"answer":0,"text":"I’m Knackered Rn (Right now)"},{"answer":0,"text":"I Know Klingon"},{"answer":0,"text":"Is Ketchup Red"}]},{"id":49,"type":"image_text","difficulty":"easy","image":"static/images/49/flat.jpg","question":"What is the meme called?","correct_answer":{"answer":1,"text":"Troll Face"},"incorrect_answers":[{"answer":0,"text":"You’re Lying Face"},{"answer":0,"text":"Smirk Face"},{"answer":0,"text":"Sneaky Face"}]},{"id":54,"type":"image","difficulty":"easy","question":"Which social network has the most users?","correct_answer":{"answer":1,"image":"static/images/54/fb.png","text":"Facebook"},"incorrect_answers":[{"answer":0,"image":"static/images/54/insta.png","text":"Instagram"},{"answer":0,"image":"static/images/54/twitter.png","text":"Twitter"},{"answer":0,"image":"static/images/54/vero.jpg","text":"Vero"}]},{"id":55,"type":"text","difficulty":"easy","question":"What year was Instagram created?","correct_answer":{"answer":1,"text":"2010"},"incorrect_answers":[{"answer":0,"text":"2004"},{"answer":0,"text":"2006"},{"answer":0,"text":"2008"}]},{"id":56,"type":"image","difficulty":"easy","question":"Which one of these political figures has the most followers on Twitter?","correct_answer":{"answer":1,"image":"static/images/56/obama.jpg","text":"Barack Obama"},"incorrect_answers":[{"answer":0,"image":"static/images/56/donald-trump.png","text":"Donald Trump"},{"answer":0,"image":"static/images/56/flat.jpg","text":"Theresa May"},{"answer":0,"image":"static/images/56/hillary_clinton.png","text":"Hillary Clinton"}]},{"id":57,"type":"image","difficulty":"easy","question":"Who founded Facebook?","correct_answer":{"answer":1,"image":"static/images/57/flat.jpg","text":"Mark Zuckerberg"},"incorrect_answers":[{"answer":0,"image":"static/images/57/bill-gates.jpg","text":"Bill Gates"},{"answer":0,"image":"static/images/57/topic_steve.jpg","text":"Steve Jobs"},{"answer":0,"image":"static/images/57/bezos_jeff.jpg","text":"Jeff Bezos"}]},{"id":58,"type":"image","difficulty":"easy","question":"Which one is Instagram’s original logo?","correct_answer":{"answer":1,"image":"static/images/58/instagram_old.png","text":"(a)"},"incorrect_answers":[{"answer":0,"image":"static/images/58/insta-line.png","text":"(b)"},{"answer":0,"image":"static/images/58/insta.png","text":"(c)"},{"answer":0,"image":"static/images/58/insta-circ.png","text":"(d)"}]},{"id":60,"type":"image_text","difficulty":"easy","image":"static/images/3/kylie-jenner2.jpg","question":"Why did Kylie Jenner take a break from social media?","correct_answer":{"answer":1,"text":"She was pregnant"},"incorrect_answers":[{"answer":0,"text":"She was on holiday"},{"answer":0,"text":"Bad photos were leaked"},{"answer":0,"text":"She didn’t like the fame"}]}],"medium":[{"id":22,"type":"image_text","difficulty":"medium","image":"static/images/22/linkedin.png","question":"Who owns Linkedin?","correct_answer":{"answer":1,"text":"Microsoft"},"incorrect_answers":[{"answer":0,"text":"Apple"},{"answer":0,"text":"Facebook"},{"answer":0,"text":"Google"}]},{"id":9,"type":"image","difficulty":"medium","question":"What is the most popular gaming app ever?","correct_answer":{"answer":1,"image":"static/images/9/candy-crush-saga.jpg","text":"Candy Crush Saga"},"incorrect_answers":[{"answer":0,"image":"static/images/9/Angry+Birds_TitlePicture.png","text":"Angry Birds"},{"answer":0,"image":"static/images/9/fruit-ninja-screenshot.jpg","text":"Fruit Ninja"},{"answer":0,"image":"static/images/9/MV5BNGU_.jpg","text":"Subway Surfers"}]},{"id":1,"type":"image","difficulty":"medium","question":"What is the most used emoji?","correct_answer":{"answer":1,"image":"static/images/1/laugh-emojis.png","text":"Laugh Cry emoji"},"incorrect_answers":[{"answer":0,"image":"static/images/1/heart-eye-emojis.png","text":"Heart eye emoji"},{"answer":0,"image":"static/images/1/Aubergine-emojis.png","text":"Aubergine emoji"},{"answer":0,"image":"static/images/1/peach-emojis.png","text":"Peach emoji"}]},{"id":3,"type":"image","difficulty":"medium","question":"Who is the most followed person on instagram?","correct_answer":{"answer":1,"image":"static/images/3/1469588275-selena-gomez.jpg","text":"Selena Gomez"},"incorrect_answers":[{"answer":0,"image":"static/images/3/beyonce.jpg","text":"Beyonce"},{"answer":0,"image":"static/images/3/kylie-jenner2.jpg","text":"Kylie Jenner"},{"answer":0,"image":"static/images/3/6bc8e7d0925589c9fd8ce80e4e6789d2.jpg","text":"Kim Kardashian-West"}]},{"id":5,"type":"text","difficulty":"medium","question":"What does “Ghosting” mean?","correct_answer":{"answer":1,"text":"When one person in a relationship suddenly disappears and stops responding"},"incorrect_answers":[{"answer":0,"text":"When you ignore someone by accident"},{"answer":0,"text":"When someone believes they are in a relationship and the other doesn't"},{"answer":0,"text":"When a couple are both cheating"}]},{"id":15,"type":"image","difficulty":"medium","question":"Who is the most followed person on Twitter?","correct_answer":{"answer":1,"image":"static/images/15/Taylor-Swift-800x800.png","text":"Taylor Swift"},"incorrect_answers":[{"answer":0,"image":"static/images/15/beyonce.jpg","text":"Beyonce"},{"answer":0,"image":"static/images/15/kylie-jenner2.jpg","text":"Kylie Jenner"},{"answer":0,"image":"static/images/15/1469588275-selena-gomez.jpg","text":"Selena Gomez"}]},{"id":19,"type":"image_text","difficulty":"medium","image":"static/images/19/Taylor-Swift-800x800.png","question":"Why was Taylor Swift’s comment section on Instagram flooded with the snake emoji?","correct_answer":{"answer":1,"text":"Because of her feud with Kim Kardashian West"},"incorrect_answers":[{"answer":0,"text":"For her new album"},{"answer":0,"text":"For her new song"},{"answer":0,"text":"Because she tweeted she bought a snake"}]},{"id":25,"type":"image","difficulty":"medium","question":"Who is the most streamed artist of 2017?","correct_answer":{"answer":1,"image":"static/images/25/ed-sheeran.jpg","text":"Ed Sheeran"},"incorrect_answers":[{"answer":0,"image":"static/images/25/starving_acoustic.jpg","text":"Hailee Steinfeld"},{"answer":0,"image":"static/images/25/drake.jpg","text":"Drake"},{"answer":0,"image":"static/images/25/Khalid.jpg","text":"Khalid"}]},{"id":27,"type":"image","difficulty":"medium","question":"Who’s tweet made Snapchat’s stock value drop $1.4bn?","correct_answer":{"answer":1,"image":"static/images/27/kylie-jenner2.jpg","text":"Kylie Jenner"},"incorrect_answers":[{"answer":0,"image":"static/images/27/kim_kardashian-West.jpg","text":"Kim Kardashian-West"},{"answer":0,"image":"static/images/27/kendall_jenner.jpg","text":"Kendall Jenner"},{"answer":0,"image":"static/images/27/kourtney_kardashian.jpg","text":"Kourtney Kardashian"}]},{"id":32,"type":"text","difficulty":"medium","question":"What does ‘ngl’ stand for?","correct_answer":{"answer":1,"text":"Not Gonna Lie"},"incorrect_answers":[{"answer":0,"text":"Never Gonna Like (...)"},{"answer":0,"text":"Never Gonna Love"},{"answer":0,"text":"Not Goin ‘lone"}]},{"id":35,"type":"text","difficulty":"medium","question":"How is the acronym ‘lol’ most commonly used for texting?","correct_answer":{"answer":1,"text":"Laugh Out Loud"},"incorrect_answers":[{"answer":0,"text":"Lots Of Love"},{"answer":0,"text":"Lots Of Laughter"},{"answer":0,"text":"Little Old Lady"}]},{"id":36,"type":"image_text","difficulty":"medium","image":"static/images/36/Salt-bae.png","question":"Who is this?","correct_answer":{"answer":1,"text":"Salt bae"},"incorrect_answers":[{"answer":0,"text":"Salt babe"},{"answer":0,"text":"Salt baeb"},{"answer":0,"text":"Salt baby"}]},{"id":37,"type":"image","difficulty":"medium","question":"Where is the most Instagrammed place in the world?","correct_answer":{"answer":1,"image":"static/images/37/new-york.jpg","text":"New York, USA"},"incorrect_answers":[{"answer":0,"image":"static/images/37/los-angeles.jpg","text":"Los Angeles, USA"},{"answer":0,"image":"static/images/37/paris-france.jpg","text":"Paris, France"},{"answer":0,"image":"static/images/37/saint-basil.jpg","text":"Moscow, Russia"}]},{"id":38,"type":"image","difficulty":"medium","question":"What is the most Instagrammed food in the world?","correct_answer":{"answer":1,"image":"static/images/38/p_free.jpg","text":"Pizza"},"incorrect_answers":[{"answer":0,"image":"static/images/38/bagel.png","text":"Bagels"},{"answer":0,"image":"static/images/38/large_sushi.jpg","text":"Sushi"},{"answer":0,"image":"static/images/38/paleo_superlean.jpg","text":"Steak"}]},{"id":39,"type":"image_text","difficulty":"medium","image":"static/images/39/flat.jpg","question":"What is this famous cat known as?","correct_answer":{"answer":1,"text":"Grumpy cat"},"incorrect_answers":[{"answer":0,"text":"Angry cat"},{"answer":0,"text":"Crabby cat"},{"answer":0,"text":"Cranky cat"}]},{"id":41,"type":"text","difficulty":"medium","question":"What is the animal in the viral song “What does the _____ say?","correct_answer":{"answer":1,"text":"Fox"},"incorrect_answers":[{"answer":0,"text":"Hippo"},{"answer":0,"text":"Seal"},{"answer":0,"text":"Giraffe"}]},{"id":46,"type":"text","difficulty":"medium","question":"What does ‘CSB’ stand for?","correct_answer":{"answer":1,"text":"Cool Story Bro"},"incorrect_answers":[{"answer":0,"text":"Could Someone Bring (...)"},{"answer":0,"text":"Cruel Sassy B*tch"},{"answer":0,"text":"Could She Bang"}]}],"hard":[{"id":7,"type":"text","difficulty":"hard","question":"What does L.A.T mean?","correct_answer":{"answer":1,"text":"Living Apart Together"},"incorrect_answers":[{"answer":0,"text":"Literally Always Talking"},{"answer":0,"text":"Lizards And Tortoises"},{"answer":0,"text":"A term Latino couples use"}]},{"id":8,"type":"text","difficulty":"hard","question":"What does “Shipping” mean?","correct_answer":{"answer":1,"text":"Really wanting two people to have something together"},"incorrect_answers":[{"answer":0,"text":"Ordering someone online and waiting for it to be shipped"},{"answer":0,"text":"PG version of “Shitting”"},{"answer":0,"text":"When you're in a relationship and it’s going really well"}]},{"id":17,"type":"text","difficulty":"hard","image":"","question":"How many tweets are tweeted approximately per day on twitter?","correct_answer":{"answer":1,"text":"500 million"},"incorrect_answers":[{"answer":0,"text":"200 million"},{"answer":0,"text":"300 million"},{"answer":0,"text":"400 million"}]},{"id":24,"type":"image","difficulty":"hard","question":"What is the most played song on spotify?","correct_answer":{"answer":1,"image":"static/images/24/psycho.jpg","text":"God’s Plan - Drake"},"incorrect_answers":[{"answer":0,"image":"static/images/24/havana.jpg","text":"Havana - Camilla Cabello"},{"answer":0,"image":"static/images/24/new_rules.jpg","text":"New Rules - Dua Lipa"},{"answer":0,"image":"static/images/24/cvrart.jpg","text":"Psycho - Post Malone Feat. Ty Dolla $ign"}]},{"id":26,"type":"image","difficulty":"hard","question":"What is the most Shazamed song of all time?","correct_answer":{"answer":1,"image":"static/images/26/avicii.jpg","text":"Wake Me Up - Avicii"},"incorrect_answers":[{"answer":0,"image":"static/images/26/passenger.jpg","text":"Let Her Go - Passenger"},{"answer":0,"image":"static/images/26/lazer.jpeg","text":"Lean On - Major Lazer & DJ Snake"},{"answer":0,"image":"static/images/26/gotye.jpg","text":"Somebody That I Used To Know - Gotye"}]},{"id":28,"type":"text","difficulty":"hard","image":"","question":"How many times has Tinder been downloaded?","correct_answer":{"answer":1,"text":"100 million"},"incorrect_answers":[{"answer":0,"text":"50 million"},{"answer":0,"text":"150 million"},{"answer":0,"text":"200 million"}]},{"id":29,"type":"text","difficulty":"hard","image":"","question":"What is the number of daily swipes on Tinder?","correct_answer":{"answer":1,"text":"1.6bn"},"incorrect_answers":[{"answer":0,"text":"1.2bn"},{"answer":0,"text":"1.4bn"},{"answer":0,"text":"1.8bn"}]},{"id":31,"type":"image_text","difficulty":"hard","image":"static/images/31/snapchat.png","question":"How many Snapchats are sent out a day?","correct_answer":{"answer":1,"text":"3.5bn"},"incorrect_answers":[{"answer":0,"text":"1.5bn"},{"answer":0,"text":"2.5bn"},{"answer":0,"text":"4.5bn"}]},{"id":33,"type":"text","difficulty":"hard","question":"What does ‘smh’ stand for?","correct_answer":{"answer":1,"text":"Shake My Head"},"incorrect_answers":[{"answer":0,"text":"Stop Messaging Him"},{"answer":0,"text":"Stop Messaging Her"},{"answer":0,"text":"Somehow"}]},{"id":34,"type":"text","difficulty":"hard","question":"What does ‘tl;dr’ stand for?","correct_answer":{"answer":1,"text":"Too long; didn't read"},"incorrect_answers":[{"answer":0,"text":"Too late; didn't realize"},{"answer":0,"text":"Too late; don’t rate"},{"answer":0,"text":"Too little; don't recommend"}]},{"id":40,"type":"image_text","difficulty":"hard","image":"static/images/40/steals-your.jpg","question":"What is the name of this meme?","correct_answer":{"answer":1,"text":"Good Guy Greg"},"incorrect_answers":[{"answer":0,"text":"Good Guy Grayson"},{"answer":0,"text":"Good Guy George"},{"answer":0,"text":"Good Guy Gavin"}]},{"id":45,"type":"text","difficulty":"hard","question":"What does ‘Bae’ stand for?","correct_answer":{"answer":1,"text":"Before Anyone Else"},"incorrect_answers":[{"answer":0,"text":"Before Anything Else"},{"answer":0,"text":"Danish word for poop"},{"answer":0,"text":"Shortcut for babe"}]},{"id":47,"type":"image","difficulty":"hard","question":"What shoe brand was Daniel wearing in the viral video ‘Damn Daniel’?","correct_answer":{"answer":1,"image":"static/images/47/vetement.png","text":"Vans"},"incorrect_answers":[{"answer":0,"image":"static/images/47/images.png","text":"Stan Smith"},{"answer":0,"image":"static/images/47/new.png","text":"New Balance"},{"answer":0,"image":"static/images/47/0.jpg","text":"Converse"}]},{"id":48,"type":"image_text","difficulty":"hard","image":"static/images/48/flat.jpg","question":"What is the meme called?","correct_answer":{"answer":1,"text":"Forever Alone"},"incorrect_answers":[{"answer":0,"text":"Always Alone"},{"answer":0,"text":"Endlessly Alone"},{"answer":0,"text":"Permanently Alone"}]},{"id":50,"type":"image_text","difficulty":"hard","image":"static/images/50/what.jpg","question":"What is the name of the man from the ‘Watch Out We Have a Badass Over Here’ meme?","correct_answer":{"answer":1,"text":"Neil deGrasse Tyson"},"incorrect_answers":[{"answer":0,"text":"Bill Nye"},{"answer":0,"text":"Carl Sagen"},{"answer":0,"text":"Michio Kaku"}]},{"id":51,"type":"image_text","difficulty":"hard","image":"static/images/51/aliens.jpg","question":"What is the caption of this meme?","correct_answer":{"answer":1,"text":"Aliens"},"incorrect_answers":[{"answer":0,"text":"Extraterrestrials "},{"answer":0,"text":"Groundbreaking"},{"answer":0,"text":"Huge"}]},{"id":52,"type":"image_text","difficulty":"hard","image":"static/images/52/bitch.jpg","question":"Who is this?","correct_answer":{"answer":1,"text":"Yao Ming"},"incorrect_answers":[{"answer":0,"text":"Obama"},{"answer":0,"text":"Ye Li"},{"answer":0,"text":"Kim Jong- Un"}]},{"id":53,"type":"image","difficulty":"hard","question":"Who has the most likes on Facebook?","correct_answer":{"answer":1,"image":"static/images/53/christianoronaldo-1.jpg","text":"Cristiano Ronaldo"},"incorrect_answers":[{"answer":0,"image":"static/images/53/vin-diesel.jpg","text":"Vin Diesel"},{"answer":0,"image":"static/images/53/shakira.png","text":"Shakira"},{"answer":0,"image":"static/images/53/6bc8e.jpg","text":"Kim Kardashian-West"}]},{"id":59,"type":"text","difficulty":"hard","image":"","question":"Why did Justin Bieber delete his Instagram?","correct_answer":{"answer":1,"text":"His fans were jealous of his rumoured girlfriend Sofia Richie"},"incorrect_answers":[{"answer":0,"text":"He wanted a break from social media"},{"answer":0,"text":"He was embarrassed how many followers he lost after Instagram removed fake followers"},{"answer":0,"text":"He wanted to start a fresh new Instagram feed"}]}]}
 
 /***/ }),
 
@@ -1377,9 +1353,9 @@ module.exports = {"easy":[{"id":2,"type":"image","difficulty":"easy","question":
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Question_vue__ = __webpack_require__("eE7u");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_76f6a4ea_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Question_vue__ = __webpack_require__("jyAg");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8b4ea75e_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Question_vue__ = __webpack_require__("YORL");
 function injectStyle (ssrContext) {
-  __webpack_require__("JH8n")
+  __webpack_require__("+RqN")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -1392,12 +1368,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-76f6a4ea"
+var __vue_scopeId__ = "data-v-8b4ea75e"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Question_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_76f6a4ea_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Question_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8b4ea75e_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Question_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1413,8 +1389,6 @@ var Component = normalizeComponent(
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-//
-//
 //
 //
 //
@@ -1529,7 +1503,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
         begainGame() {
             var router = this.$router;
             this.$store.dispatch('getQuestions').then(function (data) {
-                console.log("Successful Request");
                 router.push({
                     name: 'game'
                 });
@@ -1626,14 +1599,10 @@ Array.prototype.keySort = function (keys) {
 
 /***/ }),
 
-/***/ "jyAg":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ "jIO1":
+/***/ (function(module, exports) {
 
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"question"},[_c('transition',{attrs:{"name":"fade"}},[_c('h2',{staticClass:"large text-center"},[_vm._v(_vm._s(_vm.question))])])],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -1713,6 +1682,17 @@ var Component = normalizeComponent(
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "ohoZ":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 text-center py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name || score.user.full_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("understand the"),_c('br'),_vm._v("social generation?")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -1876,6 +1856,13 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "qaU4":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "qgpy":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2004,6 +1991,18 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACO
 
 /***/ }),
 
+/***/ "tNuP":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"game_main_container"},[(_vm.answers.type === 'image_text')?_c('div',{staticClass:"game_type_image_text"},[_c('div',{staticClass:"row answer"},[_c('div',{staticClass:"col-8"},_vm._l((_vm.options),function(option,index){return _c('div',{staticClass:"row",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected}},[_c('div',{staticClass:"answer_content image_text",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected},on:{"click":function($event){_vm.pickOption(option)}}},[(_vm.selected && option.answer === 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("qkG4")}})]):_vm._e(),_vm._v(" "),(_vm.selected && option.answer != 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("9rYS")}})]):_vm._e(),_vm._v(" "),_c('span',{staticClass:"index"},[_vm._v(_vm._s(_vm.letters[index])+".")]),_vm._v(" "),_c('p',{staticClass:"answer_title"},[_vm._v(_vm._s(option.text))])])])})),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"row"},[(_vm.answers.image)?_c('div',{staticClass:"right_img"},[_c('img',{staticClass:"img-fluid",attrs:{"src":_vm.answers.image}})]):_vm._e()])])])]):_vm._e(),_vm._v(" "),(_vm.answers.type === 'text')?_c('div',{staticClass:"game_type_text"},[_c('div',{staticClass:"row answer"},_vm._l((_vm.options),function(option,index){return _c('div',{staticClass:"col-6",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected}},[_c('div',{staticClass:"answer_content text_layout",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected},on:{"click":function($event){_vm.pickOption(option)}}},[(_vm.selected && option.answer === 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("qkG4")}})]):_vm._e(),_vm._v(" "),(_vm.selected && option.answer != 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("9rYS")}})]):_vm._e(),_vm._v(" "),_c('span',{staticClass:"index"},[_vm._v(_vm._s(_vm.letters[index])+".")]),_vm._v(" "),_c('p',{staticClass:"answer_title"},[_vm._v(_vm._s(option.text))])])])}))]):_vm._e(),_vm._v(" "),(_vm.answers.type === 'image')?_c('div',{staticClass:"game_type_image"},[_c('div',{staticClass:"row answer"},_vm._l((_vm.options),function(option){return _c('div',{staticClass:"col-3",class:{selected: option == _vm.selected, disabled : option != _vm.selected && _vm.selected}},[_c('div',{staticClass:"answer_content image_layout",on:{"click":function($event){_vm.pickOption(option)}}},[(_vm.selected && option.answer === 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("qkG4")}})]):_vm._e(),_vm._v(" "),(_vm.selected && option.answer != 1 && option === _vm.selected)?_c('div',{staticClass:"answer_result"},[_c('img',{attrs:{"src":__webpack_require__("9rYS")}})]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"img_box",class:{selected: option == _vm.selected,
+                     disabled : option != _vm.selected && _vm.selected}},[_c('img',{staticClass:"img-fluid",attrs:{"src":option.image}})]),_vm._v(" "),_c('div',{staticClass:"text-center"},[_c('p',{staticClass:"answer_title"},[_vm._v(_vm._s(option.text))])])])])}))]):_vm._e(),_vm._v(" "),(!_vm.gameActive)?_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.nextQuestion()}}},[_vm._v("Next")]):_vm._e()])}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "tUX2":
 /***/ (function(module, exports) {
 
@@ -2050,6 +2049,13 @@ var Component = normalizeComponent(
 /***/ }),
 
 /***/ "toXb":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "ugBM":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -2463,9 +2469,9 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 },
       getQuizquestion = function (data) {
     // data random
-    var q_easy = 3; // Max 24
-    var q_medium = 4; // Max 17
-    var q_hard = 3; // Max 19
+    var q_easy = 24; // Max 24
+    var q_medium = 17; // Max 17
+    var q_hard = 19; // Max 19
     var result = [];
 
     var easy = shuffle(data.easy, q_easy);
@@ -2618,13 +2624,6 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 
 /***/ }),
 
-/***/ "x9VF":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ "xJD8":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2644,26 +2643,15 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 
 /***/ }),
 
-/***/ "zMPo":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 text-center py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name || score.user.full_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("understand the"),_c('br'),_vm._v("social generation?")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "zgV5":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__ = __webpack_require__("hcza");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_78d026b7_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("zMPo");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_54213b4c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("ohoZ");
 function injectStyle (ssrContext) {
-  __webpack_require__("Nr86")
+  __webpack_require__("BbuY")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -2676,12 +2664,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-78d026b7"
+var __vue_scopeId__ = "data-v-54213b4c"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_78d026b7_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_54213b4c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2694,4 +2682,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.c65c6ac228401b9d47ff.js.map
+//# sourceMappingURL=app.958c919a3b57c6489c44.js.map
