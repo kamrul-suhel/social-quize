@@ -505,7 +505,7 @@
       "id": 7,
       "type": "text",
       "difficulty": "hard",
-      "question": "What does L.A.T mean?",
+      "question": "What does L.A.T. mean?",
       "correct_answer": {"answer":1, "text": "Living Apart Together"},
       "incorrect_answers": [
         {"answer": 0, "text": "Literally Always Talking"},
