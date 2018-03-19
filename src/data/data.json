@@ -13,18 +13,6 @@
       ]
     },
     {
-      "id": 4,
-      "type": "image",
-      "difficulty": "easy",
-      "question": "What is the world's most popular social network?",
-      "correct_answer": {"answer":1, "image": "static/images/4/FB-f-Logo__blue_1024.png","text": "Facebook"},
-      "incorrect_answers": [
-        {"answer": 0, "image": "static/images/4/580b57fcd9996e24bc43c543-copy.png", "text": "Whatsapp"},
-        {"answer": 0, "image": "static/images/4/Facebook_Messenger_logo.png", "text": "Facebook messenger"},
-        {"answer": 0, "image": "static/images/4/Twitter_logo_bird_transparent_png.png", "text": "Twitter"}
-      ]
-    },
-    {
       "id": 6,
       "type": "image",
       "difficulty": "easy",
@@ -105,7 +93,7 @@
       "id": 16,
       "type": "image",
       "difficulty": "easy",
-      "question": "What is the most viewed video on youtube?",
+      "question": "What is the most viewed video on YouTube?",
       "correct_answer": {"answer":1, "image": "static/images/16/maxresdefault-2.jpg","text": "“Despacito” - Luis Fonsi"},
       "incorrect_answers": [
         {"answer": 0, "image": "static/images/16/maxresdefault.jpg", "text": "“Gangnam Style” - Psy"},
@@ -143,7 +131,7 @@
       "id": 18,
       "type": "text",
       "difficulty": "easy",
-      "question": "What is the name of the Gorilla that was killed and later became an internet star?",
+      "question": "What is the name of the gorilla that was killed and later became an internet star?",
       "correct_answer": {"answer":1, "text": "Harambe"},
       "incorrect_answers": [
         {"answer": 0, "text": "Chichwa"},
@@ -205,7 +193,7 @@
       "id": 44,
       "type": "text",
       "difficulty": "easy",
-      "question": "What does ‘ikr’ stand for?",
+      "question": "What does ‘IKR’ stand for?",
       "correct_answer": {"answer":1, "text": "I Know Right"},
       "incorrect_answers": [
         {"answer": 0, "text": "I’m Knackered Rn (Right now)"},
@@ -218,7 +206,7 @@
       "type": "image_text",
       "difficulty": "easy",
       "image" :"static/images/49/flat.jpg",
-      "question": "What is the meme called?",
+      "question": "What is this meme called?",
       "correct_answer": {"answer":1, "text": "Troll Face"},
       "incorrect_answers": [
         {"answer": 0, "text": "You’re Lying Face"},
@@ -279,11 +267,11 @@
       "type": "image",
       "difficulty": "easy",
       "question": "Which one is Instagram’s original logo?",
-      "correct_answer": {"answer":1, "image": "static/images/58/instagram_old.png","text": "(a)"},
+      "correct_answer": {"answer":1, "image": "static/images/58/instagram_old.png","text": ""},
       "incorrect_answers": [
-        {"answer": 0, "image": "static/images/58/insta-line.png", "text": "(b)"},
-        {"answer": 0, "image": "static/images/58/insta.png", "text": "(c)"},
-        {"answer": 0, "image": "static/images/58/insta-circ.png", "text": "(d)"}
+        {"answer": 0, "image": "static/images/58/insta-line.png", "text": ""},
+        {"answer": 0, "image": "static/images/58/insta.png", "text": ""},
+        {"answer": 0, "image": "static/images/58/insta-circ.png", "text": ""}
       ]
     },
     {
@@ -344,7 +332,7 @@
       "id": 3,
       "type": "image",
       "difficulty": "medium",
-      "question": "Who is the most followed person on instagram?",
+      "question": "Who is the most followed person on Instagram?",
       "correct_answer": {"answer":1, "image": "static/images/3/1469588275-selena-gomez.jpg","text": "Selena Gomez"},
       "incorrect_answers": [
         {"answer": 0, "image": "static/images/3/beyonce.jpg", "text": "Beyonce"},
@@ -417,7 +405,7 @@
       "id": 32,
       "type": "text",
       "difficulty": "medium",
-      "question": "What does ‘ngl’ stand for?",
+      "question": "What does ‘NGL’ stand for?",
       "correct_answer": {"answer":1, "text": "Not Gonna Lie"},
       "incorrect_answers": [
         {"answer": 0, "text": "Never Gonna Like (...)"},
@@ -491,7 +479,7 @@
       "id": 41,
       "type": "text",
       "difficulty": "medium",
-      "question": "What is the animal in the viral song “What does the _____ say?",
+      "question": "What is the animal in the viral song “What does the _____ say?“?",
       "correct_answer": {"answer":1, "text": "Fox"},
       "incorrect_answers": [
         {"answer": 0, "text": "Hippo"},
@@ -542,7 +530,7 @@
       "type": "text",
       "difficulty": "hard",
       "image" :"",
-      "question": "How many tweets are tweeted approximately per day on twitter?",
+      "question": "Approximately how many tweets are there a day?",
       "correct_answer": {"answer":1, "text": "500 million"},
       "incorrect_answers": [
         {"answer": 0, "text": "200 million"},
@@ -554,7 +542,7 @@
       "id": 24,
       "type": "image",
       "difficulty": "hard",
-      "question": "What is the most played song on spotify?",
+      "question": "What is the most played song on Spotify?",
       "correct_answer": {"answer":1, "image": "static/images/24/cvrart.jpg","text": "God’s Plan - Drake"},
       "incorrect_answers": [
         {"answer": 0, "image": "static/images/24/havana.jpg", "text": "Havana - Camilla Cabello"},
@@ -617,8 +605,8 @@
       "id": 33,
       "type": "text",
       "difficulty": "hard",
-      "question": "What does ‘smh’ stand for?",
-      "correct_answer": {"answer":1, "text": "Shake My Head"},
+      "question": "What does ‘SMH’ stand for?",
+      "correct_answer": {"answer":1, "text": "Shaking My Head"},
       "incorrect_answers": [
         {"answer": 0, "text": "Stop Messaging Him"},
         {"answer": 0, "text": "Stop Messaging Her"},
@@ -629,7 +617,7 @@
       "id": 34,
       "type": "text",
       "difficulty": "hard",
-      "question": "What does ‘tl;dr’ stand for?",
+      "question": "What does ‘TL;DR’ stand for?",
       "correct_answer": {"answer":1, "text": "Too long; didn't read"},
       "incorrect_answers": [
         {"answer": 0, "text": "Too late; didn't realize"},
@@ -658,7 +646,7 @@
       "correct_answer": {"answer":1, "text": "Before Anyone Else"},
       "incorrect_answers": [
         {"answer": 0, "text": "Before Anything Else"},
-        {"answer": 0, "text": "Danish word for poop"},
+        {"answer": 0, "text": "Danish word for boat"},
         {"answer": 0, "text": "Shortcut for babe"}
       ]
     },
@@ -669,7 +657,7 @@
       "question": "What shoe brand was Daniel wearing in the viral video ‘Damn Daniel’?",
       "correct_answer": {"answer":1, "image": "static/images/47/vetement.png","text": "Vans"},
       "incorrect_answers": [
-        {"answer": 0, "image": "static/images/47/images.png", "text": "Stan Smith"},
+        {"answer": 0, "image": "static/images/47/images.png", "text": "Adidas Stan Smith"},
         {"answer": 0, "image": "static/images/47/new.png", "text": "New Balance"},
         {"answer": 0, "image": "static/images/47/0.jpg", "text": "Converse"}
       ]
@@ -679,7 +667,7 @@
       "type": "image_text",
       "difficulty": "hard",
       "image" :"static/images/48/flat.jpg",
-      "question": "What is the meme called?",
+      "question": "What is this meme called?",
       "correct_answer": {"answer":1, "text": "Forever Alone"},
       "incorrect_answers": [
         {"answer": 0, "text": "Always Alone"},
