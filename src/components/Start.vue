@@ -1,13 +1,19 @@
 <template>
     <div id="section-start">
         <div class="start d-flex align-items-center">
-            <div class="card w-100 text-center py-4 mx-auto">
+            <div class="card w-100 py-4 mx-auto">
                 <section class="container">
                     <div class="row">
                         <div class="col-8 table-style">
                             <div class="table-cell-style">
                                 <div class="heading_leaderboard_page">
-                                    <h1 class="heading_main">How well do you<br/>understand the<br/>social generation?</h1>
+                                    <h1 class="heading_main">How well do you<br/>know the social<br/>generation?</h1>
+                                </div>
+
+                                <div class="prizes">
+                                    <h4>1st Prize&nbsp;&nbsp;&nbsp;&nbsp;Three Course Sunday Lunch for Two at the Michelin-Starred Ritz Restaurant</h4>
+                                    <h4>2nd Prize&nbsp;&nbsp;&nbsp;&nbsp;Champagne Cinema Evening for Two at the 5* Luxury Courthouse Hotel</h4>
+                                    <h4>3rd Prize&nbsp;&nbsp;&nbsp;&nbsp;2018 UNILAD Meme Calendar</h4>
                                 </div>
                             </div>
                         </div>
@@ -202,6 +208,9 @@
 .start{
     background: url('../assets/images/dots_sm.png') no-repeat bottom right;
 }
+.prizes{
+    padding-top:50px;
+}
 .heading_leaderboard_page{
     text-align:left;
     width:900px;
@@ -210,7 +219,7 @@
     content: '';
     background: #fff;
     padding-top: 10px;
-    width: 90%;
+    width: 60%;
     border: none;
     display: block;
     margin-top:30px;

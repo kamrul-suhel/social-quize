@@ -5,7 +5,7 @@
         </div>
 
         <div class="game_timer_time">
-            <h3>{{ time.minutes ? time.minutes+':' : '' }} {{time.second}}s</h3>
+            <h3>{{ time.minutes ? time.minutes+':' : '' }} {{ (time.second < 10 && time.minutes > 0) ? '0'+time.second : time.second }}s</h3>
         </div>
     </div>
 </template>
