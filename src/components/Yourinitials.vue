@@ -23,8 +23,10 @@
                     <transition name="fade">
                         <div class="col-12" v-if="initial_value">
                             <div class="row">
-                                <div class="col text-center">
-                                    <img src="img" alt="" class="img-fluid">
+                                <div class="col-12 text-center">
+                                    <p>Submit your details for your chance to win a prize</p>
+                                </div>
+                                <div class="col-12 text-center">
                                     <button class="quiz-button" v-on:click="enterPriceDraw()">Enter prize draw</button>
                                     <button class="quiz-button" v-on:click="leaderboard()">No thanks</button>
                                 </div>
@@ -149,7 +151,7 @@ h2{
     font-family: giorgiosans-bolditalic;
     text-align: center;
     font-style: italic;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width: 50%;
     transition: all ease-in-out .3s;
     letter-spacing: 39px;
