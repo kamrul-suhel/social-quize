@@ -1,7 +1,7 @@
 <template>
     <div class="start d-flex align-items-center">
         <div class="w-100 text-center py-4 mx-auto">
-            <section class="container">
+            <section class="container" style="margin-bottom:50px;">
                 <div class="row">
                     <transition name="fade">
                         <section class="col-12 initial_heading">
@@ -152,7 +152,7 @@ h2{
     font-family: giorgiosans-bolditalic;
 }
 h4{
-    margin-bottom:25px;
+    margin-bottom:40px;
 }
 
 .initial_input{
