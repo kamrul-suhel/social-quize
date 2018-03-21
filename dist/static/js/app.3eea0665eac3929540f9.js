@@ -164,6 +164,17 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "6xjs":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("know the social"),_c('br'),_vm._v("generation?")])]),_vm._v(" "),_c('div',{staticClass:"prizes"},[_c('h4',[_vm._v("1st Prize    Three Course Sunday Lunch for Two at the Michelin-Starred Ritz Restaurant")]),_vm._v(" "),_c('h4',[_vm._v("2nd Prize    Champagne Cinema Evening for Two at the 5* Luxury Courthouse Hotel")]),_vm._v(" "),_c('h4',[_vm._v("3rd Prize    2018 UNILAD Meme Calendar")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "7Otq":
 /***/ (function(module, exports) {
 
@@ -231,9 +242,9 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAYAAACO
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Termsconditions_vue__ = __webpack_require__("Xp4V");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ba17782e_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Termsconditions_vue__ = __webpack_require__("RPiB");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3e12ee5a_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Termsconditions_vue__ = __webpack_require__("FKZX");
 function injectStyle (ssrContext) {
-  __webpack_require__("Dg55")
+  __webpack_require__("SHTM")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -251,7 +262,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Termsconditions_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_ba17782e_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Termsconditions_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_3e12ee5a_hasScoped_false_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Termsconditions_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -263,10 +274,14 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ "Dg55":
-/***/ (function(module, exports) {
+/***/ "FKZX":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-// removed by extract-text-webpack-plugin
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"user_detail"},[_vm._m(0),_vm._v(" "),_c('section',{staticClass:"terms_conditions"},[_c('div',{staticClass:"container"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col text-center"},[_c('router-link',{attrs:{"to":'/your_detail'}},[_c('button',{staticClass:"term_button"},[_vm._v("Back")])])],1)])])])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"tc_heading"},[_c('div',{staticClass:"container top_heading"},[_c('div',{staticClass:"row top_heading_content"},[_c('div',{staticClass:"col text-center"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"terms_condition_box"},[_c('h2',{staticClass:"sub_heading"},[_vm._v("Terms and Conditions")]),_vm._v(" "),_c('p',[_vm._v("UK residents of 18+ years only may participate in the UNILAD ‘Social Generation’ competition (“the Promotion”). The promotion will run on the 21st and 22nd  March 2018 (“the Promotion Period”). No purchase necessary for entry.")]),_vm._v(" "),_c('p',[_vm._v("To Participate: Complete the quiz on the iPad provided and complete by entering your name, email address and company. The participants are allowed 1 turn per individual. \n                    ")]),_c('p',[_vm._v("Full Terms & prize details can be found below.")]),_vm._v(" "),_c('h2',{staticClass:"sub_heading"},[_vm._v("Full Terms and Conditions")]),_vm._v(" "),_c('ol',[_c('li',[_vm._v("This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.")]),_vm._v(" "),_c('li',[_vm._v("Promotion Period: 21st and 22nd March.")]),_vm._v(" "),_c('li',[_vm._v("To Enter:\n                            "),_c('ul',[_c('li',[_vm._v("Complete the  quiz.")]),_vm._v(" "),_c('li',[_vm._v("Enter your full name, company and email address once completed.")]),_vm._v(" "),_c('li',[_vm._v("One entry per person.")])])]),_vm._v(" "),_c('li',[_vm._v("The prizes:\n                            "),_c('ul',[_c('li',[_vm._v("There will be 1 prize per individual.")])])]),_vm._v(" "),_c('li',[_vm._v("The winner of the Prize will be notified via the email address provided by midday Thursday 29th March and will need to respond to the email sent by midday Tuesday 3rd  April. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and select another winner.")]),_vm._v(" "),_c('li',[_vm._v("The prize will be distributed within 28 days of the winner accepting the prize. ")]),_vm._v(" "),_c('li',[_vm._v("Prizes are non-transferable and no cash or other alternative to the prizes are available in whole or in part. In the event of unforeseen circumstances, the Promoter reserves the right to substitute an alternative reward of equal or greater value.")]),_vm._v(" "),_c('li',[_vm._v("By entering, winners agree to participate in any publicity arranged by the Promoter or by its agencies.")]),_vm._v(" "),_c('li',[_vm._v("By entering this Promotion, all participants will be deemed to have accepted these terms and conditions.")]),_vm._v(" "),_c('li',[_vm._v("The Promoter will exercise its best endeavours to ensure that the Promotion runs as envisaged in a fair and proper manner and that prizes are duly received by the respective Winners. However, the Promoter does not assume any responsibility should for any circumstance this is not duly achieved. The Promoter reserves the right to cancel or change the Promotion should any exceptional or unforeseen circumstances arise.")]),_vm._v(" "),_c('li',[_vm._v("The Promoter also has the right to disqualify any participant who the Promoter suspects and/or confirms that s/he tampered or abused the entry process or the Promotion itself. Participants who are suspected or are found to have acted fraudulently and/or dishonestly will not be entitled to the prize.")]),_vm._v(" "),_c('li',[_vm._v("All entries must be made directly by the person entering the promotion.")]),_vm._v(" "),_c('li',[_vm._v("These terms and conditions are governed by English Law and shall be subject to the exclusive jurisdiction of the courts or England and Wales.")])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -875,24 +890,6 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ "Qdhn":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
-/***/ "RPiB":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"user_detail"},[_vm._m(0),_vm._v(" "),_c('section',{staticClass:"terms_conditions"},[_c('div',{staticClass:"container"},[_vm._m(1),_vm._v(" "),_c('div',{staticClass:"row"},[_c('div',{staticClass:"col text-center"},[_c('router-link',{attrs:{"to":'/your_detail'}},[_c('button',{staticClass:"term_button"},[_vm._v("Back")])])],1)])])])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"tc_heading"},[_c('div',{staticClass:"container top_heading"},[_c('div',{staticClass:"row top_heading_content"},[_c('div',{staticClass:"col text-center"})])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"row"},[_c('div',{staticClass:"terms_condition_box"},[_c('h2',[_vm._v("Terms and Conditions")]),_vm._v(" "),_c('p',[_vm._v("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of")]),_vm._v(" "),_c('p',[_vm._v("type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in ")]),_vm._v(" "),_c('p',[_vm._v("the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")]),_vm._v(" "),_c('p',[_vm._v("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of")]),_vm._v(" "),_c('p',[_vm._v("type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in ")]),_vm._v(" "),_c('p',[_vm._v("the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "RcUN":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -984,6 +981,13 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 /***/ }),
 
+/***/ "SHTM":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "SgRs":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -996,6 +1000,13 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ }),
 
 /***/ "TvOH":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
+/***/ "UpUV":
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -1047,21 +1058,32 @@ var Component = normalizeComponent(
 
 /***/ }),
 
-/***/ "Xk9G":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("know the social"),_c('br'),_vm._v("generation?")])]),_vm._v(" "),_c('div',{staticClass:"prizes"},[_c('h4',[_vm._v("1st Prize    Three Course Sunday Lunch for Two at the Michelin-Starred Ritz Restaurant")]),_vm._v(" "),_c('h4',[_vm._v("2nd Prize    Champagne Cinema Evening for Two at the 5* Luxury Courthouse Hotel")]),_vm._v(" "),_c('h4',[_vm._v("3rd Prize    2018 UNILAD Meme Calendar")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
 /***/ "Xp4V":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2668,9 +2690,9 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__ = __webpack_require__("hcza");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d863398_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("Xk9G");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e5e62e96_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("6xjs");
 function injectStyle (ssrContext) {
-  __webpack_require__("Qdhn")
+  __webpack_require__("UpUV")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -2683,12 +2705,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-0d863398"
+var __vue_scopeId__ = "data-v-e5e62e96"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_0d863398_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_e5e62e96_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2701,4 +2723,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.841773959065305afd2a.js.map
+//# sourceMappingURL=app.3eea0665eac3929540f9.js.map
