@@ -100,6 +100,7 @@
 
       created(){
           this.$store.state.questions = [];
+
           this.$store.commit('setInitializeUserQuestion');
           this.$http.get('https://unilad-expo-quiz.firebaseio.com/results.json')
               .then(function(data) {

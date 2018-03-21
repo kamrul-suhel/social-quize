@@ -49,6 +49,12 @@ export const store = new Vuex.Store({
             state.email = user.email;
         },
 
+        setUserreset(state){
+            state.user.full_name = '';
+            state.company = '';
+            state.email = '';
+        },
+
         setUserQuestion(state, question){
             state.userQuestions.push(question);
         },

@@ -116,12 +116,6 @@
                         initial_name: initial_name
                     };
 
-
-//                    this.user.full_name = '';
-//                    this.user.email = '';
-//                    this.user.company = '';
-//                    this.user.term_conditions = '';
-
                     this.$http.post('https://unilad-expo-quiz.firebaseio.com/results.json', upload)
                         .then(function(data) {
                             // Unique id back from firebase
@@ -158,7 +152,7 @@
             }
         },
         created(){
-            this.user = this.$store.getters.getUser;
+//            this.user = this.$store.getters.getUser;
         }
 
     }
