@@ -12,14 +12,36 @@
             <div class="container">
                 <div class="row">
                     <div class="terms_condition_box">
-                        <h2>Terms and Conditions</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of</p>
-                        <p>type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
-                        <p>the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of</p>
-                        <p>type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in </p>
-                        <p>the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h2 class="sub_heading">Terms and Conditions</h2>
+                        <p>UK residents of 18+ years only may participate in the UNILAD ‘Social Generation’ competition (“the Promotion”). The promotion will run on the 21st and 22nd  March 2018 (“the Promotion Period”). No purchase necessary for entry.</p>
+                        <p>To Participate: Complete the quiz on the iPad provided and complete by entering your name, email address and company. The participants are allowed 1 turn per individual. 
+                        <p>Full Terms &amp; prize details can be found below.</p>
+                        <h2 class="sub_heading">Full Terms and Conditions</h2>
+                        <ol>
+                            <li>This Promotion is only open to legal residents of the United Kingdom who are aged 18 years or over, excluding anyone professionally associated with this Promotion.</li>
+                            <li>Promotion Period: 21st and 22nd March.</li>
+                            <li>To Enter:
+                                <ul>
+                                    <li>Complete the  quiz.</li>
+                                    <li>Enter your full name, company and email address once completed.</li>
+                                    <li>One entry per person.</li>
+                                </ul>
+                            </li>
+                            <li>The prizes:
+                                <ul>
+                                    <li>There will be 1 prize per individual.</li>
+                                </ul>
+                            </li>    
+                            <li>The winner of the Prize will be notified via the email address provided by midday Thursday 29th March and will need to respond to the email sent by midday Tuesday 3rd  April. If the winner does not respond within the stipulated timeframe, UNILAD reserves the right to disqualify that winner and select another winner.</li>
+                            <li>The prize will be distributed within 28 days of the winner accepting the prize. </li>
+                            <li>Prizes are non-transferable and no cash or other alternative to the prizes are available in whole or in part. In the event of unforeseen circumstances, the Promoter reserves the right to substitute an alternative reward of equal or greater value.</li>
+                            <li>By entering, winners agree to participate in any publicity arranged by the Promoter or by its agencies.</li>
+                            <li>By entering this Promotion, all participants will be deemed to have accepted these terms and conditions.</li>
+                            <li>The Promoter will exercise its best endeavours to ensure that the Promotion runs as envisaged in a fair and proper manner and that prizes are duly received by the respective Winners. However, the Promoter does not assume any responsibility should for any circumstance this is not duly achieved. The Promoter reserves the right to cancel or change the Promotion should any exceptional or unforeseen circumstances arise.</li>
+                            <li>The Promoter also has the right to disqualify any participant who the Promoter suspects and/or confirms that s/he tampered or abused the entry process or the Promotion itself. Participants who are suspected or are found to have acted fraudulently and/or dishonestly will not be entitled to the prize.</li>
+                            <li>All entries must be made directly by the person entering the promotion.</li>
+                            <li>These terms and conditions are governed by English Law and shall be subject to the exclusive jurisdiction of the courts or England and Wales.</li>
+                        </ol>
                     </div>
                 </div>
 
@@ -53,6 +75,10 @@
     }
 </script>
 <style>
+    #app .terms_condition_box p{
+        font-size: 20px;
+        line-height: 25px;
+    }
     .tc_heading{
         background:#000;
     }
@@ -71,14 +97,6 @@
         margin-right:auto;
         padding:50px;
         border:1px solid #000;
-    }
-
-    .terms_condition_box h2{
-        font-size:40px;
-        font-style:italic;
-    }
-    .terms_condition_box p{
-        font-size:18px;
     }
 
     .term_button{

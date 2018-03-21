@@ -28,7 +28,7 @@
                                             <tr v-for="(score, index) in scores" v-if="index < 10">
                                                 <td><strong style="font-family:'giorgiosans-bolditalic'">{{index+1}}{{index+1 | pluralize('st','nd','rd','th')}}</strong></td>
                                                 <td style="font-family:'gotham-book'; font-weight:normal; font-style:normal; text-transform:uppercase;">{{score.initial_name}}</td>
-                                                <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.time.minutes}}:{{score.time.seconds}}</strong></td>
+                                                <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.time.minutes}}:{{score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds}}</strong></td>
                                                 <td><strong style="font-family:'giorgiosans-bolditalic'">{{score.correct_answers}}/10</strong></td>
                                             </tr>
                                         </tbody>
