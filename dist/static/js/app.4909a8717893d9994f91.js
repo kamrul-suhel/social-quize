@@ -263,6 +263,17 @@ var Component = normalizeComponent(
 
 /***/ }),
 
+/***/ "DjlE":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("know the social"),_c('br'),_vm._v("generation?")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "FKZX":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -584,17 +595,6 @@ Array.prototype.keySort = function (keys) {
 "use strict";
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"game_view"},[_c('timer-component',{attrs:{"total":_vm.total_question},on:{"total_time":function($event){_vm.time_toplay($event)}}}),_vm._v(" "),_c('question',{attrs:{"question":_vm.question}}),_vm._v(" "),_c('answers',{attrs:{"answers":_vm.object},on:{"nextQuestion":function($event){_vm.getQuestion($event)}}})],1)}
 var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
-
-/***/ }),
-
-/***/ "L3M0":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"section-start"}},[_c('div',{staticClass:"start d-flex align-items-center"},[_c('div',{staticClass:"card w-100 py-4 mx-auto"},[_c('section',{staticClass:"container"},[_c('div',{staticClass:"row"},[_vm._m(0),_vm._v(" "),_c('div',{staticClass:"col-4"},[_c('div',{staticClass:"leader_board text-left",attrs:{"id":"leader_board"}},[_c('div',{attrs:{"id":"children"}},[_c('h2',{staticClass:"text-left sub_heading"},[_vm._v("Leaderboard")]),_vm._v(" "),_c('table',{staticClass:"table"},[_c('tbody',_vm._l((_vm.scores),function(score,index){return (index < 10)?_c('tr',[_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(index+1)+_vm._s(_vm._f("pluralize")(index+1,'st','nd','rd','th')))])]),_vm._v(" "),_c('td',{staticStyle:{"font-family":"'gotham-book'","font-weight":"normal","font-style":"normal","text-transform":"uppercase"}},[_vm._v(_vm._s(score.initial_name))]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.time.minutes)+":"+_vm._s(score.time.seconds < 10 ? '0'+score.time.seconds : score.time.seconds))])]),_vm._v(" "),_c('td',[_c('strong',{staticStyle:{"font-family":"'giorgiosans-bolditalic'"}},[_vm._v(_vm._s(score.correct_answers)+"/10")])])]):_vm._e()}))])])])])])]),_vm._v(" "),_vm._m(1)])]),_vm._v(" "),_c('button',{staticClass:"quiz-button",on:{"click":function($event){_vm.begainGame()}}},[_vm._v("Start")])])}
-var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"col-8 table-style"},[_c('div',{staticClass:"table-cell-style"},[_c('div',{staticClass:"heading_leaderboard_page"},[_c('h1',{staticClass:"heading_main"},[_vm._v("How well do you"),_c('br'),_vm._v("know the social"),_c('br'),_vm._v("generation?")])])])])},function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('section',{staticClass:"pos-bottom"},[_c('div',{staticClass:"container"},[_c('div',{staticClass:"row"},[_c('div',{staticClass:"col-10"},[_c('p',{staticClass:"text-left"},[_vm._v("Test your knowledge of the world of social by answering 10 questions as quick as you can to see if you have what it takes to become a social media expert.")])])])])])}]
 var esExports = { render: render, staticRenderFns: staticRenderFns }
 /* harmony default export */ __webpack_exports__["a"] = (esExports);
 
@@ -1371,6 +1371,13 @@ module.exports = {"easy":[{"id":2,"type":"image","difficulty":"easy","question":
 
 /***/ }),
 
+/***/ "cAIl":
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+
 /***/ "d5Sz":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1441,7 +1448,6 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue_timers_mixin__ = __webpack_require__("6Y9k");
-//
 //
 //
 //
@@ -1665,13 +1671,6 @@ var Component = normalizeComponent(
 
 /* harmony default export */ __webpack_exports__["a"] = (Component.exports);
 
-
-/***/ }),
-
-/***/ "k7tV":
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
 
 /***/ }),
 
@@ -2692,9 +2691,9 @@ const store = new __WEBPACK_IMPORTED_MODULE_1_vuex__["a" /* default */].Store({
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__ = __webpack_require__("hcza");
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d69d03c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("L3M0");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_31c6f452_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__ = __webpack_require__("DjlE");
 function injectStyle (ssrContext) {
-  __webpack_require__("k7tV")
+  __webpack_require__("cAIl")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -2707,12 +2706,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-6d69d03c"
+var __vue_scopeId__ = "data-v-31c6f452"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Start_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_6d69d03c_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_31c6f452_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Start_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2725,4 +2724,4 @@ var Component = normalizeComponent(
 /***/ })
 
 },["NHnr"]);
-//# sourceMappingURL=app.06e7f3f10e1abcea4191.js.map
+//# sourceMappingURL=app.4909a8717893d9994f91.js.map
