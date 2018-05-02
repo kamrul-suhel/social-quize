@@ -250,5 +250,44 @@
         .answer_content{
 
         }
+
+        .index {
+            font-size:50px;
+        }
+
+        #app p{
+            font-size: 24px;
+            margin-top: 10px;
+            margin-left: 20px;
+            line-height: 32px;
+        }
+
+        .answer_content.image_text .answer_result{
+            top: -20px;
+            width: 30px;
+            height: 30px;
+            right: -15px;
+        }
+
+        .answer_content.text_layout .answer_result{
+            top: -20px;
+            width: 30px;
+            height: 30px;
+            right: -15px;
+        }
+
+        .answer_content.image_layout .answer_result{
+            top: -20px;
+            width: 30px;
+            height: 30px;
+            right: -15px;
+        }
+
+        .quiz-button{
+            font-size: 40px;
+            padding: 0px 50px;
+            right: 50px;
+            line-height: 50px;
+        }
     }
 </style> 

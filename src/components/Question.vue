@@ -59,5 +59,7 @@
       .question{
           min-height:auto;
       }
+
+
   }
 </style>

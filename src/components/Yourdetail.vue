@@ -210,4 +210,37 @@
     input:-webkit-autofill {
         background:transparent;
     }
+
+
+    /* Media query for ipad */
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape) {
+
+        h2.large{
+            font-size:100px;
+        }
+
+        .your_detail .row label{
+            font-size:24px;
+        }
+
+        .your_detail .row input{
+            font-size:24px;
+        }
+
+        .your_detail .row input[type='checkbox']{
+            transform: scale(1.5);
+        }
+
+        .your_detail .row label.term{
+            font-size:24px;
+        }
+
+        .your_detail .row input[type='submit']{
+            font-size: 24px;
+            width: 100px;
+        }
+    }
 </style>
