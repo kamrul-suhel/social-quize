@@ -240,4 +240,15 @@
         width:90%;
         float:right;
     }
+
+
+
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape) {
+        .answer_content{
+
+        }
+    }
 </style> 

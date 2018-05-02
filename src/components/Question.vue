@@ -45,4 +45,19 @@
           opacity:1;
       }
   }
+
+
+  @media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape) {
+      h2.large{
+          font-size:70px;
+          line-height:90px;
+      }
+
+      .question{
+          min-height:auto;
+      }
+  }
 </style>
