@@ -191,4 +191,29 @@
         width:50%;
     }
 
+    @media only screen
+    and (min-device-width: 768px)
+    and (max-device-width: 1024px)
+    and (orientation: landscape) {
+        h2.large{
+            font-size:100px;
+        }
+
+        .top_heading{
+            height:180px;
+        }
+
+        .leader_board_content{
+            padding-top:30px;
+        }
+
+        .quiz-button{
+            font-size: 40px;
+            padding: 0px 50px;
+            right: 50px;
+            line-height: 52px;
+            padding-bottom: 4px;
+        }
+    }
+
 </style>

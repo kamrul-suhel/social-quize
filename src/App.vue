@@ -133,6 +133,21 @@
 		font-family: 'gotham-book';
 	}
 
+	@media only screen
+	and (min-device-width: 768px)
+	and (max-device-width: 1024px)
+	and (orientation: landscape) {
+		#app h4{
+			font-size: 25px;
+		}
+
+		#app p{
+			font-size: 25px;
+			margin-bottom: 0;
+			line-height: 30px;
+		}
+	}
+
 	
 	.action-button {
 		position: relative;

@@ -262,6 +262,15 @@
             line-height: 32px;
         }
 
+        .answer_content.text_layout{
+            margin-bottom:40px;
+            padding-bottom:40px;
+        }
+
+        .answer_content.image_text{
+            padding-bottom:40px;
+        }
+
         .answer_content.image_text .answer_result{
             top: -20px;
             width: 30px;

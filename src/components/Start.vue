@@ -327,6 +327,7 @@
             padding: 0px 50px;
             right: 50px;
             line-height: 50px;
+            padding-bottom:2px;
         }
     }
 
