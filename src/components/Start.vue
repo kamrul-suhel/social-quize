@@ -9,14 +9,20 @@
                                 <div class="heading_leaderboard_page">
                                     <h1 class="heading_main">How well do you<br/>know the social<br/>generation?</h1>
                                 </div>
+<<<<<<< HEAD
 
                                 <div class="prizes">
                                     <h4>1st Prize&nbsp;&nbsp;&nbsp;&nbsp;Three Course Sunday Lunch for Two at the
                                         Michelin-Starred Ritz Restaurant</h4>
                                     <h4>2nd Prize&nbsp;&nbsp;&nbsp;&nbsp;Champagne Cinema Evening for Two at the 5*
                                         Luxury Courthouse Hotel</h4>
+=======
+                                <!--div class="prizes">
+                                    <h4>1st Prize&nbsp;&nbsp;&nbsp;&nbsp;Three Course Sunday Lunch for Two at the Michelin-Starred Ritz Restaurant</h4>
+                                    <h4>2nd Prize&nbsp;&nbsp;&nbsp;&nbsp;Champagne Cinema Evening for Two at the 5* Luxury Courthouse Hotel</h4>
+>>>>>>> 68b9024d0e96226108d35d72eab869643b1ea8c6
                                     <h4>3rd Prize&nbsp;&nbsp;&nbsp;&nbsp;2018 UNILAD Meme Calendar</h4>
-                                </div>
+                                </div-->
                             </div>
                         </div>
 
